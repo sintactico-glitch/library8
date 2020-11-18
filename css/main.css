@@ -1,0 +1,22 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+img {
+  width: 100%;
+}
+/*# sourceMappingURL=main.css.map */
