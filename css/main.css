@@ -116,8 +116,29 @@
 }
 
 /*  Sections on index.html  */
+#awareness {
+  background-image: url(../img/hero/hero_awareness.jpg);
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 #investing {
   background-image: url(../img/hero/hero_investing.jpg);
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#web_development {
+  background-image: url(../img/hero/hero_web_development.jpg);
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#worldbuilding {
+  background-image: url(../img/hero/hero_worldbuilding.jpg);
   max-width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
