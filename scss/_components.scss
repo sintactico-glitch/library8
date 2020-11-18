@@ -35,9 +35,12 @@
 /*  Hero    */
 .hero {
     height: 100vh;
-    background-color: red;
     padding: 2em;
     display: flex;
+    /*  Styles for background imgs */
+    max-width: 100%;
+    object-fit: cover;
+    background-position: center;
 
     &__container {
         display: flex;
@@ -54,6 +57,7 @@
         padding: .3em .6em;
         margin: 0.3em 0;
     }
+
 }
 
 
