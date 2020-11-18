@@ -1,0 +1,81 @@
+/*  Container   */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto 3em auto;
+}
+
+
+/*  Index   */
+.index {
+    max-width: 25%;
+    border: 1px solid black;
+    margin-right: auto;
+    font-size: .9rem;
+    padding: 1em .75em;
+    align-self: start;
+    position: sticky; /* Tried putting position relative on the main container but the sticky is not working */
+
+    &__title {
+        margin: 0;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+    }
+
+    &__list {
+        list-style-position: inside;
+        padding-left: 0;
+        line-height: 1.5;
+
+        li {
+            margin-bottom: 0.6em;
+        }
+    }
+}
+
+
+/*  Summary     */
+.summary {
+    margin-bottom: .3em;
+    max-width: 70%;
+    margin-left: auto;
+
+    &__list-item {
+        margin-bottom: .6em;
+    }
+
+    &__title--main {
+        font-size: 2.5rem;
+        margin-top: 0;
+    }
+
+    &__title--article {
+        text-transform: uppercase;
+        font-size: 1.75rem;
+    }
+}
+
+
+/*  Card    */
+.card {
+    max-width: 600px;
+    background-color: $light-gray;
+    margin: 1em 0;
+    padding: .3em 1em;
+
+    &__title {
+        text-transform: uppercase;
+        font-size: 1.5em;
+        margin: .5em 0;
+    }
+
+    &__list {
+        padding: 0;
+        list-style-position: inside;
+        list-style-type: square;
+    }
+
+    &__link {
+        font-size: .9em;
+    }
+}
