@@ -1,8 +1,7 @@
 /*  Container   */
 .container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto 3em auto;
+    width: 80%;
+    max-width: 1000px;
 }
 
 
@@ -30,6 +29,30 @@
         li {
             margin-bottom: 0.6em;
         }
+    }
+}
+
+/*  Hero    */
+.hero {
+    height: 100vh;
+    background-color: red;
+    padding: 2em;
+    display: flex;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__title,
+    &__text {
+        background-color: $black;
+        color: $white;
+        align-self: start;
+        justify-self: center;
+        padding: .3em .6em;
+        margin: 0.3em 0;
     }
 }
 

@@ -1,3 +1,128 @@
+/*  Container   */
+.container {
+  width: 80%;
+  max-width: 1000px;
+}
+
+/*  Index   */
+.index {
+  max-width: 25%;
+  border: 1px solid black;
+  margin-right: auto;
+  font-size: .9rem;
+  padding: 1em .75em;
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+  position: -webkit-sticky;
+  position: sticky;
+  /* Tried putting position relative on the main container but the sticky is not working */
+}
+
+.index__title {
+  margin: 0;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.index__list {
+  list-style-position: inside;
+  padding-left: 0;
+  line-height: 1.5;
+}
+
+.index__list li {
+  margin-bottom: 0.6em;
+}
+
+/*  Hero    */
+.hero {
+  height: 100vh;
+  background-color: red;
+  padding: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero__title, .hero__text {
+  background-color: #0A0F0D;
+  color: #ffffff;
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  padding: .3em .6em;
+  margin: 0.3em 0;
+}
+
+/*  Summary     */
+.summary {
+  margin-bottom: .3em;
+  max-width: 70%;
+  margin-left: auto;
+}
+
+.summary__list-item {
+  margin-bottom: .6em;
+}
+
+.summary__title--main {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+.summary__title--article {
+  text-transform: uppercase;
+  font-size: 1.75rem;
+}
+
+/*  Card    */
+.card {
+  max-width: 600px;
+  background-color: #E0E1DD;
+  margin: 1em 0;
+  padding: .3em 1em;
+}
+
+.card__title {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  margin: .5em 0;
+}
+
+.card__list {
+  padding: 0;
+  list-style-position: inside;
+  list-style-type: square;
+}
+
+.card__link {
+  font-size: .9em;
+}
+
+/*  Sections on index.html  */
+#investing {
+  background-image: url(../img/hero/hero_investing.jpg);
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 *,
 *:before,
 *:after {
@@ -16,6 +141,12 @@ body {
 
 img {
   width: 100%;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 body {
