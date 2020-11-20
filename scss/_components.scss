@@ -31,6 +31,12 @@
 .hero {
     height: 95vh;
     padding: 2em;
+    /*  
+      el padding hace que en mobile el texto
+      quede muy centrado, agregar clases de 
+      bootstrap para que el padding se agregue
+      según el breakpoint
+    */
     display: flex;
     /*  Styles for background imgs */
     max-width: 100%;
@@ -47,6 +53,7 @@
     &__text {
         background-color: $black;
         color: $white;
+        font-family: $font-title;
         align-self: start;
         justify-self: center;
         padding: .3em .6em;
