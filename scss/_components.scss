@@ -30,7 +30,7 @@
 /*  Hero    */
 .hero {
     height: 90vh;
-    padding: 2em;
+    padding: 2em 0;
     /*  
       el padding hace que en mobile el texto
       quede muy centrado, agregar clases de 
@@ -46,7 +46,7 @@
     &__container {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
     }
 
     &__title,
@@ -61,16 +61,13 @@
 
     &__title {
         font-size: $size1;
-        padding: 0.3em;
+        padding: 0.21em 0.3em;
     }
 
     &__text {
         font-size: $size4;
         padding: 0.3em 0.6em;
-    }
-    
-    &__text {
-        margin-bottom: 2.5rem;
+        margin-bottom: 3rem;
     }
 
 }
