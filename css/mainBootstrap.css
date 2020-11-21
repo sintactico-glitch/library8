@@ -66,7 +66,7 @@
 .hero__title, .hero__text {
   background-color: #0A0F0D;
   color: #ffffff;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Oswald", sans-serif;
   -ms-flex-item-align: start;
       -ms-grid-row-align: start;
       align-self: start;
@@ -182,7 +182,7 @@ img {
 }
 
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.25rem;
   line-height: 1.6;
 }
@@ -193,7 +193,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 .highlight {
