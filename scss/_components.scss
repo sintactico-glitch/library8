@@ -200,4 +200,9 @@
 // Category
 .category {
     margin: 3rem 0;
+
+    &__title {
+        margin-bottom: 3rem;
+        font-size: $size2;
+    }
 }

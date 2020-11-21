@@ -222,6 +222,11 @@
   margin: 3rem 0;
 }
 
+.category__title {
+  margin-bottom: 3rem;
+  font-size: 2.44rem;
+}
+
 /*  Sections on index.html  */
 #awareness {
   background-image: url(../img/hero/hero_awareness.jpg);
