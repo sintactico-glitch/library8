@@ -77,12 +77,12 @@
 
 .hero__title {
   font-size: 3rem;
-  padding: 0.21em 0.3em;
+  padding: 0.15em 0.3em;
 }
 
 .hero__text {
   font-size: 1.5rem;
-  padding: 0.3em 0.6em;
+  padding: 0.2em 0.6em;
   margin-bottom: 3rem;
 }
 
@@ -158,7 +158,7 @@
   text-decoration: none;
   border-radius: 0;
   font-size: 18px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
   /*  align-self stops the btn from stetching
@@ -244,7 +244,7 @@ img {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 1.25rem;
   line-height: 1.6;
 }

@@ -61,12 +61,12 @@
 
     &__title {
         font-size: $size1;
-        padding: 0.21em 0.3em;
+        padding: 0.15em 0.3em;
     }
 
     &__text {
         font-size: $size4;
-        padding: 0.3em 0.6em;
+        padding: 0.2em 0.6em;
         margin-bottom: 3rem;
     }
 
@@ -147,7 +147,7 @@
     text-decoration: none;
     border-radius: 0;
     font-size: $base-size;
-    font-family: $font-text;
+    font-family: $font-title;
     text-transform: uppercase;
     font-weight: 600;
     /*  align-self stops the btn from stetching
