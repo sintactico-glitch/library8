@@ -42,6 +42,7 @@
     max-width: 100%;
     object-fit: cover;
     background-position: center;
+    background-repeat: no repeat;
 
     &__container {
         display: flex;
@@ -97,23 +98,26 @@
 
 /*  Card    */
 .card {
-    padding: .3em 1em;
+    padding: 1em;
+
+    &__img {
+        max-width: 300px;
+        max-height: 450px;
+        margin-bottom: 1.3rem;
+        overflow: hidden;
+    }
 
     &__title {
-        text-transform: uppercase;
-        font-size: $size4;
-        margin: .5em 0;
+        font-family: $font-title;
+        font-size: $size3;
     }
 
-    &__list {
-        padding: 0;
-        list-style-position: inside;
-        list-style-type: square;
+    &__author {
+        font-family: $font-text;
+        font-size: $size5;
+        font-weight: 600;
     }
 
-    &__link {
-        font-size: .9em;
-    }
 }
 
 
