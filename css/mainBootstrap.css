@@ -32,7 +32,7 @@
 
 /*  Hero    */
 .hero {
-  height: 95vh;
+  height: 90vh;
   padding: 2em;
   /*  
       el padding hace que en mobile el texto
@@ -86,7 +86,7 @@
 }
 
 .hero__text {
-  margin-bottom: 3rem;
+  margin-bottom: 2.5rem;
 }
 
 /*  Summary     */
