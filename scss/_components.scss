@@ -56,16 +56,17 @@
         font-family: $font-title;
         align-self: start;
         justify-self: center;
-        padding: .3em .6em;
         margin: 0.3em 0;
     }
 
     &__title {
         font-size: $size1;
+        padding: 0.3em ;
     }
 
     &__text {
         font-size: $size4;
+        padding: 0.3em 0.6em;
     }
     
     &__text {
@@ -144,14 +145,14 @@
     background-color: $black;
     color: $white;
     font-weight: 700;
-    padding: .75rem 1.5rem;
+    padding: .5rem 1rem;
     display: inline-block;
     text-decoration: none;
-    border: 3px solid $black;
     border-radius: 0;
     font-size: $base-size;
     font-family: $font-text;
     text-transform: uppercase;
+    font-weight: 600;
     /*  align-self stops the btn from stetching
         the full width of the container  */
     align-self: start;
@@ -159,7 +160,6 @@
     &:hover,
     &:focus {
         background-color: $primary;
-        border: 3px solid $primary;
         color: $white;
         transition: transform 0.6s cubic-bezier(0.33, 1, 0.68, 1);
     }
