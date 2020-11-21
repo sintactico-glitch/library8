@@ -76,6 +76,14 @@
   margin: 0.3em 0;
 }
 
+.hero__title {
+  font-size: 3rem;
+}
+
+.hero__text {
+  font-size: 1.5rem;
+}
+
 .hero__text {
   margin-bottom: 3rem;
 }
@@ -92,13 +100,13 @@
 }
 
 .summary__title--main {
-  font-size: 2.5rem;
+  font-size: 1.95rem;
   margin-top: 0;
 }
 
 .summary__title--article {
   text-transform: uppercase;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 
 /*  Card    */
@@ -111,7 +119,7 @@
 
 .card__title {
   text-transform: uppercase;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   margin: .5em 0;
 }
 
@@ -151,7 +159,9 @@
   display: inline-block;
   text-decoration: none;
   border: 3px solid #0A0F0D;
-  font-size: 1.5rem;
+  border-radius: 0;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   /*  align-self stops the btn from stetching
         the full width of the container  */
@@ -219,6 +229,7 @@
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-size: 18px;
 }
 
 body {
