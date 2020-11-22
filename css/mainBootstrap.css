@@ -111,7 +111,7 @@
 /*  Card    */
 .card {
   padding: 1em;
-  max-height: 720px;
+  max-width: 600px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
