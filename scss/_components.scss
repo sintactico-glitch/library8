@@ -9,39 +9,11 @@
     Main
 */
 
-/*  Index   */
-.index {
-    font-size: .95rem;
-    /*
-    max-width: 25%;
-    border: 1px solid $black;
-    margin-right: auto;
-    
-    padding: 1em .75em;
-    align-self: start;
-    position: sticky; /* Tried putting position relative on the main container but the sticky is not working */
-
-    &__title {
-        margin: 0 0 .6rem 0;
-        font-size: $size4;
-        text-transform: uppercase;
-    }
-
-    &__list {
-        list-style-position: inside;
-        padding-left: 0;
-        line-height: 1.5;
-
-        li {
-            margin-bottom: 0.6rem;
-        }
-    }
-}
-
 /*  Hero    */
 .hero {
     height: 95vh;
     padding: 2em 0;
+    max-width: 600px;
     /*  
       el padding hace que en mobile el texto
       quede muy centrado, agregar clases de 
@@ -110,8 +82,14 @@
 /*  Card    */
 .card {
     padding: 1em;
-    max-width: 450px; 
     display: flex;
+
+    &--summary {
+        max-width: 450px; 
+        /*  Having the max-width in the card makes it 
+            difficult to reuse the class, so I'm separating
+            it in its own class */
+    }
 
     &:hover,
     &:focus {
@@ -145,6 +123,35 @@
             of the amount of text   */
     }
 
+}
+
+/*  Index   */
+.index {
+    font-size: .95rem;
+    /*
+    max-width: 25%;
+    border: 1px solid $black;
+    margin-right: auto;
+    
+    padding: 1em .75em;
+    align-self: start;
+    position: sticky; /* Tried putting position relative on the main container but the sticky is not working */
+
+    &__title {
+        margin: 0 0 .6rem 0;
+        font-size: $size4;
+        text-transform: uppercase;
+    }
+
+    &__list {
+        list-style-position: inside;
+        padding-left: 0;
+        line-height: 1.5;
+
+        li {
+            margin-bottom: 0.6rem;
+        }
+    }
 }
 
 
