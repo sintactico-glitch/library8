@@ -220,7 +220,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 2px solid #black;
+  border: 2px solid #0A0F0D;
 }
 
 .btn--secondary:hover, .btn--secondary:focus {
@@ -265,6 +265,11 @@
 
 #worldbuilding {
   background-image: url(../img/hero/hero_worldbuilding.jpg);
+}
+
+/*  Hero Img for Investing */
+#bullshit_jobs {
+  background-image: url(../img/hero/hero_bulshit_jobs.jpg);
 }
 
 *,
