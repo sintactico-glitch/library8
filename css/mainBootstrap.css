@@ -81,6 +81,17 @@
   margin-bottom: .6em;
 }
 
+.anchor {
+  display: block;
+  height: 85px;
+  margin-top: -85px;
+  visibility: hidden;
+}
+
+/*  The .anchor adds space to the #index so when you
+    move back to the top you can see the title of
+    the index
+*/
 /*
 .summary {
     margin-bottom: .3em;
