@@ -205,6 +205,20 @@
             border: 2px solid $black;
         }
     }
+
+    &--disabled {
+        background-color: $dark-gray;
+        border: 2px solid $dark-gray;
+        color: $black;
+
+        &:hover,
+        &:focus {
+            background-color: $dark-gray;
+            border: 2px solid $dark-gray;
+            color: $black;
+        }
+    }
+
 }
 
 // Category
