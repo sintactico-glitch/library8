@@ -6,22 +6,23 @@
     Navbar
     Button
     Category
-
+    Main
 */
 
 /*  Index   */
 .index {
+    font-size: .95rem;
     /*
     max-width: 25%;
     border: 1px solid $black;
     margin-right: auto;
-    font-size: .9rem;
+    
     padding: 1em .75em;
     align-self: start;
     position: sticky; /* Tried putting position relative on the main container but the sticky is not working */
 
     &__title {
-        margin: 0;
+        margin: 0 0 .6rem 0;
         font-size: $size4;
         text-transform: uppercase;
     }
@@ -32,7 +33,7 @@
         line-height: 1.5;
 
         li {
-            margin-bottom: 0.6em;
+            margin-bottom: 0.6rem;
         }
     }
 }
@@ -232,7 +233,6 @@
 }
 
 // Main
-
 main {
     padding: 3rem 0;
 }
