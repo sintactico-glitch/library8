@@ -1,8 +1,18 @@
 @charset "UTF-8";
+/*  
+    Index
+    Hero
+    Summary
+    Card
+    Navbar
+    Button
+    Category
+
+*/
 /*  Index   */
 .index {
   max-width: 25%;
-  border: 1px solid black;
+  border: 1px solid #0A0F0D;
   margin-right: auto;
   font-size: .9rem;
   padding: 1em .75em;
@@ -111,7 +121,7 @@
 /*  Card    */
 .card {
   padding: 1em;
-  max-width: 600px;
+  max-width: 450px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -123,8 +133,8 @@
 }
 
 .card__img {
-  max-width: 300px;
-  max-height: 450px;
+  max-width: 350px;
+  max-height: 420px;
   margin-bottom: 1.3rem;
   overflow: hidden;
 }
@@ -132,6 +142,7 @@
 .card__title {
   font-family: "Fjalla One", sans-serif;
   font-size: 1.95rem;
+  margin-top: .05rem;
 }
 
 .card__author {
