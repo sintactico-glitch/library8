@@ -11,17 +11,14 @@
 */
 /*  Index   */
 .index {
-  max-width: 25%;
-  border: 1px solid #0A0F0D;
-  margin-right: auto;
-  font-size: .9rem;
-  padding: 1em .75em;
-  -ms-flex-item-align: start;
-      -ms-grid-row-align: start;
-      align-self: start;
-  position: -webkit-sticky;
-  position: sticky;
-  /* Tried putting position relative on the main container but the sticky is not working */
+  /*
+    max-width: 25%;
+    border: 1px solid $black;
+    margin-right: auto;
+    font-size: .9rem;
+    padding: 1em .75em;
+    align-self: start;
+    position: sticky; /* Tried putting position relative on the main container but the sticky is not working */
 }
 
 .index__title {
@@ -241,13 +238,13 @@
   color: #0A0F0D;
 }
 
-.category {
-  margin: 3rem 0;
-}
-
 .category__title {
   margin-bottom: 3rem;
   font-size: 2.44rem;
+}
+
+main {
+  padding: 3rem 0;
 }
 
 /*  Sections on index.html  */

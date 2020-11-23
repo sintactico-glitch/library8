@@ -11,6 +11,7 @@
 
 /*  Index   */
 .index {
+    /*
     max-width: 25%;
     border: 1px solid $black;
     margin-right: auto;
@@ -223,10 +224,15 @@
 
 // Category
 .category {
-    margin: 3rem 0;
 
     &__title {
         margin-bottom: 3rem;
         font-size: $size2;
     }
+}
+
+// Main
+
+main {
+    padding: 3rem 0;
 }
