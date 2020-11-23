@@ -270,6 +270,10 @@ main {
   background-image: url(../img/hero/hero_investing.jpg);
 }
 
+#studies {
+  background-image: url(../img/hero/hero_studies.jpg);
+}
+
 #web_development {
   background-image: url(../img/hero/hero_web_development.jpg);
 }
