@@ -243,8 +243,12 @@
 .category {
 
     &__title {
-        margin-bottom: 3rem;
         font-size: $size2;
+        margin-bottom: 3rem;
+    }
+
+    .row--main {
+        margin-bottom: 2rem ;
     }
 }
 
