@@ -149,9 +149,8 @@
 }
 
 .index__title {
-  margin: 0 0 .6rem 0;
-  font-size: 1.5rem;
-  text-transform: uppercase;
+  margin: 0 0 1rem 0;
+  font-size: 1.95rem;
 }
 
 .index__list {
@@ -162,6 +161,12 @@
 
 .index__list li {
   margin-bottom: 0.6rem;
+}
+
+/*  Keypoints */
+.keypoints__title {
+  margin: 0 0 1rem 0;
+  font-size: 1.95rem;
 }
 
 /*  Navbar */

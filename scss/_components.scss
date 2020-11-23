@@ -139,9 +139,8 @@
     position: sticky; /* Tried putting position relative on the main container but the sticky is not working */
 
     &__title {
-        margin: 0 0 .6rem 0;
-        font-size: $size4;
-        text-transform: uppercase;
+        margin: 0 0 1rem 0;
+        font-size: $size3;
     }
 
     &__list {
@@ -155,6 +154,14 @@
     }
 }
 
+/*  Keypoints */
+.keypoints {
+
+    &__title {
+        margin: 0 0 1rem 0;
+        font-size: $size3;
+    }
+}
 
 /*  Navbar */
 .navbar {
