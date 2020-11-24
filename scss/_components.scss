@@ -82,6 +82,20 @@
     &__list-item {
         margin-bottom: .6em;
     }
+
+    &__navigation {
+        margin: 1em 0;
+        display: flex;
+        justify-content: space-between;
+
+        .btn--previous {
+            align-self: flex-start;
+        }
+
+        .btn--next {
+            align-self: flex-end;
+        }
+    }
 }
 
 .anchor {
