@@ -1,0 +1,39 @@
+FROM BABYLON TO BITCOIN
+The Age of Crytocurrency
+Paul Vigna
+
+For any currency to be viable, it must win the TRUST of the community using it. Trust is at the core of any system of money. 
+
+For example, Argentina. 
+The problem comes from a deep-seated breakdown of trust between the people who use a currency and the monetary authority that issues it. 
+If citizens don't trust a government to represent their interests, they won't trust the monetary system around which their economy is organized. When given the chance, they will sell that currency for something they consider more trustworthy, like the US dollar or gold. 
+The loss of value in its currency depletes the government's financial resources, which leaves money-printing as the only means to pay its debts and ensure political survival. That excess money in circulation further undermines trust, which gives way to a vicious cycle of spiraling inflation and plummeting exchange rates.
+
+YOU NEED SOME KIND OF MODEL OF TRUST TO RUN A MONETARY SYSTEM
+Bitcoin seeks to address this challenge by offering users a system of trust based not on human beings but on the inviolable laws of mathematics. However, many people don't trust it because of the overall image of bitcoin (insecurity, volatillity). Others are scared of the notion that computers and not humans are running things.
+
+In Money: The Unathorized Biography, Felix Marting argues that to focus on money as a "thing" (metallist conception of money) is to miss the powerful, civilization-building force that this invention unleashed. 
+Money as a SOCIAL TECHNOLOGY. "Currency is not itself money. Money is the system of credit accounts and their clearing that currency represents". 
+Money provided a universal value system. This meant that power structures in prehistoric tribal communities (based on violence from the most physically powerful) could give way to something that allowed all members of society to thrive. The accumulation of htis new, abstract measure of value would become the benchmark of power. 
+
+As a material object, little is unique about any country's banknotes. If you deposit a dollar note in your account, the bank acknowledges that it owes you that dollar. But this really doesn't resolve the problem of what gives the dollar its value.
+ITS VALUE DEPENDS ENTIRELY UPON EVERYONE ELSE CONSENSUALLY RECOGNIZING THAT YOUR DOLLAR CAN BE REDEEMED FOR AN AGREED-UPON MEASURE OF GOODS AND SERVICES.
+If that consensus were to disappear, your dollar's value would fall away very quickly, like with the argentine peso. 
+A dollar's value hinges on society's willingness to accept it in settlement of a debt.
+
+Gold's value as currency is an abstract social construct. It's valuable because we believe it's valuable. This agreement is what gives it value, gold doesn't have intrinsic value. 
+
+METALLISM:
+- Money as a commodity, a preexisting thing with its own inherent value
+- Societies choose certain commodities as units of exchange to simplify trade
+- Currency should itself be, or be backed by, some tangible material
+
+CHARTALISM
+- Looks past the currency and focuses on the credit and trust relationships between the individual and society at large that currency embodies
+- Recognizes the presence of an implicit, societywide agreement that allows monetary exchange to perpetuate and debt and credit to be issued and cleared. This negotiated solution IS MONEY. It's not the currency. The currency is a token or symbol around which this complex system is arranged
+
+This debate is also present around cryptocurrencies: 
+- Metallist treated the digital currency as a scarce commodity, a THING to be mined and stored. A thing whose mathematically proven finite supply ensures its value will rise above the unlimited fiat currencies 
+- Chartalist describe bitcoin not as a currency but as a PAYMENT PROTOCOL. They're more concerned with the underlying computer network's capacity to rearrange the rules of trust around which society manages exchanges of value. They see money as a system for settling and recording debt obligations
+
+(PAGE 38-39)
