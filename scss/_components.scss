@@ -231,7 +231,24 @@
     text-transform: uppercase;
     font-family: $font-logo;
   }
+  /* Dropdown */
+  .dropdown-menu {
+      background-color: $black;
+
+      .active {
+          background-color: $primary;
+      }
+
+      a:active,
+      a:focus {
+          background-color: $primary;
+      }
+
+  }
+
 }
+
+
 
 /*  Button  */
 .btn {

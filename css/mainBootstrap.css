@@ -226,6 +226,7 @@
 /*  Navbar */
 .navbar {
   background-color: #0A0F0D;
+  /* Dropdown */
 }
 
 .navbar a {
@@ -238,6 +239,19 @@
   font-size: 1.5rem;
   text-transform: uppercase;
   font-family: "Montserrat Subrayada", sans-serif;
+}
+
+.navbar .dropdown-menu {
+  background-color: #0A0F0D;
+}
+
+.navbar .dropdown-menu .active {
+  background-color: #E01541;
+}
+
+.navbar .dropdown-menu a:active,
+.navbar .dropdown-menu a:focus {
+  background-color: #E01541;
 }
 
 /*  Button  */
