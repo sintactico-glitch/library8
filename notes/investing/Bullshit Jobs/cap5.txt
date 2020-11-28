@@ -5,12 +5,12 @@ David Graeber
 Economies around the world have, increasingly, become vast engines for producing nonsense. One reason why this has been so little acknowledged is that under our current economic system, this is not supposed to happen. All of this was supposed to have ended with the collapse of the Soviet bloc and the market reforms in the 90s.
 People simply refused to believe capitalism could produce such results, even if that meeant invalidating their own experiences
 
-Since 1980 we've seen a steady decline in farming and manufacturing, and a steady increase of the "service enconomy". The bulk of the service sector is FIRE (finance, insurance, real estate), which could be named as "information work"
+Since 1980 we've seen a steady decline in farming and manufacturing, and a steady increase of the "service enconomy". The bulk of the service sector is FIRE (finance, insurance, real estate), which could be named as "information work".
 The workforce of the service sector is quite small and it remained steady over time. What grew was the FIRE sector (information work), where most bullshit jobs proliferate.
 (Add graphic of service sectors)
 A majority of those classed as information workers feel that if their jobs were to vanish, it would make very little difference to the world.
 
-One could argue that the whole FIRE sector is a scam, since the bulk of its profits come from  debt, speculation and the creation of complex financial instruments
+One could argue that the whole FIRE sector is a scam, since the bulk of its profits come from  debt, speculation and the creation of complex financial instruments.
 
 1. On the individual level, why do people agree to do and put up with their own bullshit jobs?
 2. On social and economic levels, what are the larger forces that have led to the proliferation of bullshit jobs?
@@ -52,7 +52,7 @@ BUT BY A FEUDAL LOGIC, WHERE ECONOMIC AND POLITICAL CONSIDERATIONS OVERLAP, THE 
 The whole point is to grab a pot of loot (stealing it from enemies or extracting it from commoners by fees, rents and taxes), and the redistributing it. In the process, one creates an entourage of followers that is a visible measure of one's pomp and magnificence. And at the same time, it's a means of distributing political favor (buying off malcontent, rewarding faithful allies and creating a elaborate hierarchy of honors and titles for lower-rank nobles to fight over).
 This is like a large corporation, whose purpose is less and less about making, building or fixing things and more and more about political processes of appropiating, distributing and allocating money and resources.
 
-Medieval feudalims was based on a principle of self-governance in the domain of production. Anyone whose work was based on some kind of specialized knowledge was expected to collectively regulate their own affairs.
+Medieval feudalism was based on a principle of self-governance in the domain of production. Anyone whose work was based on some kind of specialized knowledge was expected to collectively regulate their own affairs.
 Industrial capitalism changed that, the rise of managerialism in the 20th century drove the process towards "efficiency". Which means giving more and more power to managers, supervisors and "efficiency experts" so that actual producers have almost zero autonomy. At the same time, the ranks of managers seem to reproduce themselves endlessly.
 
 From 1945 to 1975 there was a "Keynesian bargain" between workers, employers and government, a tacit understanding that increases in worker productivity would be matched by increases in worker compensation. In the 70s, this stopped as compensation remained mostly flat and productivity took off like a rocket.
@@ -68,8 +68,7 @@ Managerial feudalism ensures that thousands of hours of creative effort will lit
 The reasons why individuals create or accept bullshit jobs are by no means the same as the reasons why such jobs will tend to proliferate in certain time and places. The deeper structural forces that drive such historical changes, in turn, are not the same as the cultural and political factors that determine how the public, and politicians, react to them.
 THIS PROLIFERATION APPEARS TO HAVE EVERYTHING TO DO WITH THE GROWING IMPORTANCE OF FINANCE.
 
-Executives in firms dedicated to producing breakfast cereals or agricultural machinery saw themselves as having more in common with production-line workers in their own firms than with speculators and investors. In the 1970s the financial sector and the executive classes effectively fused. 
-This set off a vicious cycle where workers (who no longer felt any loyalty to corporations that felt none toward them) had to be increasingly monitored, managed and surveilled.
+Executives in firms dedicated to producing breakfast cereals or agricultural machinery saw themselves as having more in common with production-line workers in their own firms than with speculators and investors. In the 1970s the financial sector and the executive classes effectively fused. This set off a vicious cycle where workers (who no longer felt any loyalty to corporations that felt none toward them) had to be increasingly monitored, managed and surveilled.
 
 IF THE EXISTENCE OF BULLSHIT JOBS SEEMS TO DEFY THE LOGIC OF CAPITALISM, ONE POSSIBLE REASON FOR THEIR PROLIFERATION MIGHT BE THAT THE EXISTING SYSTEM ISN'T CAPITALISM
 It's a system of rent extraction where the internal logic is profoundly different from capitalism, since economic and political imperatives merge. It resembles classic medieval feudalims, displaying the same tendency to create endless hierarchies of lords, vassals and retainers.
