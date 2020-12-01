@@ -118,6 +118,11 @@
   visibility: hidden;
 }
 
+.anchor--top {
+  height: 110px;
+  margin-top: -110px;
+}
+
 /*  The .anchor adds space to the #index so when you
     move back to the top you can see the title of
     the index
@@ -357,6 +362,11 @@ main {
 /*  Hero Img for Investing */
 #bullshit_jobs {
   background-image: url(../img/hero/hero_bulshit_jobs.jpg);
+}
+
+/*  Hero Img for Studies */
+#whose_story {
+  background-image: url(../img/hero/hero_whose_story.jpg);
 }
 
 *,

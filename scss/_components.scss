@@ -103,6 +103,11 @@
     height: 85px;
     margin-top: -85px;
     visibility: hidden;
+
+    &--top {
+        height: 110px;
+        margin-top: -110px;
+    }
 }
 
 /*  The .anchor adds space to the #index so when you
@@ -209,7 +214,7 @@
 
 /*  Keypoints */
 .keypoints {
-
+    
     &__title {
         margin: 0 0 1rem 0;
         font-size: $size3;
