@@ -3,8 +3,7 @@ Bullshit Jobs: A Theory
 David Graeber
 
 
-There's a very long theological tradition of valorizing work as a sacred duty, at once a curse and blessing, and seeing humans as inherently sinful, lazy beings who can be expected to shirk that duty if they can.
-Many economic concepts trace back directly to religious ideas. 
+There's a very long theological tradition of valorizing work as a sacred duty, at once a curse and blessing, and seeing humans as inherently sinful, lazy beings who can be expected to shirk that duty if they can. Many economic concepts trace back directly to religious ideas. 
 
 In public debate, all work must be treated as sacred duty, and therefore any work is always preferable to no work at all. But when it comes to our jobs, we tend to apply a very different criteria. We expect a job to serve some purpose or have some meaning and we're deeply demoralized if we find it doesn't.
 
@@ -14,20 +13,20 @@ People have a notion of the social value of their work; but our society has reac
 DEFINING A MEASURE OF VALUE
 
 Economist measure value in terms of what they call "utility": the degree to which a good or service is useful in satisfying a want or a need. 
-Since there's no scientific definition of what a "human need" actually is (beyond the body's minimal caloric requirements and a few other physical factors), the definition is always subjective. To a large degree, needs are just other people's expectations 
+Since there's no scientific definition of what a "human need" actually is (beyond the body's minimal caloric requirements and a few other physical factors), the definition is always subjective. To a large degree, needs are just other people's expectations. 
 Most economists conclude that there's no point in judging what people "should" want; better to just accept that they DO want and then judge how effectively (rationally) they set about pursuing their desires.
 
 Labor Theory of Value
 - Has its roots at least to the European Middle Ages
 - Is based on the assumption that the real value of a commodity is the work that has been invested in making its existence possible
 
-Considering value is subjective, everyone shoudl operate on the assumption that if there's a market for a given good or service (including financial services), then it's clearly valuable to someone, and that's all one needs to know
+Considering value is subjective, everyone should operate on the assumption that if there's a market for a given good or service (including financial services), then it's clearly valuable to someone, and that's all one needs to know
 But the market is not an infallible arbiter of value. The problem is that nothing else is, either.
 
 The idea that the market can undervalue or overvalue things has been with us for a long time and it's part of our common sense. It would be impossible for anyone to say they've been ripped off or got a good deal without this.
 What money brings to the table is the ability to make precise quantitative comparisons. The market value of a commodity is the degree to which it can be compared to(and exchanged for) something else
 
-- We speak of "value" when talking about economic affairs, where people are paid for their work or when their actions are directed towards getting money. Commodities have economic "value" because they can be compared precisely with other commodities
+- We speak of "value" when talking about economic affairs, where people are paid for their work or when their actions are directed towards getting money. Commodities have economic "value" because they can be compared precisely with other commodities.
 - "Values" are valuable because they can't be compared with anything. They're each considered unique, incommensurable, priceless. For example, housework and child care (family care) are the most common forms of unpaid work. Charitable works, political volunteering, artistic and scientific pursuits are equally unremunerated
 
 
@@ -37,7 +36,7 @@ The way this economy works, if you spend your like caring for others, you'll end
 Most people not only acknowledge this but also feel this is how things ought to be. That virtue should be its own reward, as the ancient Stoics argued. 
 
     There is a sense that those who choose to benefit society, and especially those who have the gratification of KNOWING they benefit society, really have no business also expecting middle-class salaries, paid vacations and generous retirement packages.
-    There is also a feeing that those who have to suffer from the knowledge they're doing pointless or even harmful work just for the sake of money should be rewarded with more money for exactly that reason.
+    There is also a feeling that those who have to suffer from the knowledge they're doing pointless or even harmful work just for the sake of money should be rewarded with more money for exactly that reason.
 
 There's an idea that the collective sacrifice for the common good SHOULD fall disproportionately on those who are already, by their choice of work, engaged in sacrifice for the common good. Or who simply have the gratification of knowing their work is productive and useful. 
 This can only make sense if we assume that work (more specifically, paid work) is a value in itself. So much a value in itself that the motives of the person taking the job and the effects of the work are, at best, secondary considerations.
@@ -68,7 +67,7 @@ SERVICE IN FEUDAL SOCIETY
 
 Feudal society had a "life-cycle" of service. Almost everyone was expected to spend roughly the first 7 to 15 years of their working life as a servant in someone else's household. Service was expected equally from boys and girls, and was usually expected even of the elite.
 
-Generally, servants were paid and expected to save a good share of their wages. They were acquiring both the knowledge and experiene needed to manage a household, shop or farm, and also the wealth needed to acquire one. Service was seen above all as the process whereby young people learned not only their trade, but the "manners", the appropiate behavior of a responsible adult.
+Generally, servants were paid and expected to save a good share of their wages. They were acquiring both the knowledge and experience needed to manage a household, shop or farm, and also the wealth needed to acquire one. Service was seen above all as the process whereby young people learned not only their trade, but the "manners", the appropiate behavior of a responsible adult.
 
 What we consider paid work and what we consider education were seen as largely the same thing. Both were a process of learning self-discipline, about "achieving mastery over one's base desires", and learning how to behave like a proper self-contained adult. 
 
@@ -77,7 +76,7 @@ This changed with the advent of capitalism. Capitalism understood as the gradual
 In humans terms, millions of people found themselves trapped in permanent social adolescence. They were expected to live their entire lives effectively as unfinished human beings. Inevitably, many began to rebel, marrying early, abandoning their masters and setting up cottages and families of their own. This set off a wave of moral panic among the emerging employing class reminiscent of later moral panics about teenage pregnancy.
 It's at this moment that we can speak of the birth of the proletariat as a class, a term derived from a Latin word meaning "those who produce offspring".
 
-The Puritan ideal was for suh "masterless men" to be rounded up and placed under the stern discipline of a pious household whose patriarch could direct them in work and prayer. This was the first of a long history of attempts to reform the manners of the lower class, where the poor were taught proper time discipline, similar to government programs today. 
+The Puritan ideal was for such "masterless men" to be rounded up and placed under the stern discipline of a pious household whose patriarch could direct them in work and prayer. This was the first of a long history of attempts to reform the manners of the lower class, where the poor were taught proper time discipline, similar to government programs today. 
 
     Why, starting in the 16th century, did the middle class suddenly develop such an interest in reforming the moral comportment of the poor, a subject they hadn't previously found of much interest?
     In the context of life-cycle service it makes sense. The poor were seen as frustrated adolescents.
@@ -108,7 +107,7 @@ We can all imagine a better world. Why can't we just create one? Why does it see
 Caring for others, especially over the long term, requires maintaining a world that's relatively predictable as the grounds on which caring can take place. You can't save for the education of your children unless you're sure in 20 years there will still be colleges, and money. And that meas that love for others (people, animals, landscapes) regularly requires the maintenance of institutional structures one might otherwise despise.
 
 
-WORK AS A FOR OF DISCIPLINE AND SELF-sacrifice
+WORK AS A FORM OF DISCIPLINE AND SELF-sacrifice
 
 Captains of industry all over the world have been able to convince the public that they, and not those they employ, are the real creators of prosperity. How are workers supposed to find meaning and purpose in jobs where they are effectively being turned into robots?
 
