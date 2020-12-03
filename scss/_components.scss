@@ -219,6 +219,11 @@
         margin: 0 0 1rem 0;
         font-size: $size3;
     }
+
+    &__subtitle {
+        font-size: $size3;
+        text-transform: uppercase;
+    }
 }
 
 /*  Navbar */
