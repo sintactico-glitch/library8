@@ -385,6 +385,12 @@ main {
   background-position: right;
 }
 
+/*  Hero Img for Web Development */
+#biblia_bootstrap {
+  background-image: url(../img/hero/hero_biblia_bootstrap.jpg);
+  background-position: left;
+}
+
 *,
 *:before,
 *:after {
