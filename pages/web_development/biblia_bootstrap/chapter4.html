@@ -63,7 +63,7 @@
             <div class="col-12 col-lg-10 offset-lg-1">
               <span class="anchor" id="chapter1"></span>
               <article>
-                <h2 class="summary__title--main">Capítulo 5: Usando Flexbox</h2>
+                <h2 class="summary__title--main">Capítulo 4: Usando Flexbox</h2>
 
                 <div class="subsection">
                   <h3 class="summary__title--subtitle">Trabajando con d-flex</h3>  
@@ -71,6 +71,7 @@
                   <p>Clases para crear un flex container:</p>
                   <ul>
                       <li class="summary__list-item">.d-flex</li>
+                      <li class="summary__list--item">.d-inline-flex</li>
                       <li class="summary__list-item">.d-sm-flex</li>
                       <li class="summary__list-item">.d-md-flex</li>
                       <li class="summary__list-item">.d-lg-flex</li>
@@ -93,7 +94,7 @@
                 </div>
 
                 <div class="subsection">
-                  <h3 class="summary__title--subtitle">Alineación en el eje principal con flexbox</h3>
+                  <h3 class="summary__title--subtitle">Alineación en el eje principal</h3>
                   <p>Las siguientes clases se aplican al flex container:</p>
                   <ul>
                       <li class="summary__list-item">.justify-content-start</li>
@@ -109,11 +110,43 @@
                 </div>
 
                 <div class="subsection">
-                  <h3 class="summary__title--subtitle"></h3>
+                  <h3 class="summary__title--subtitle">Alineación en el eje secundario</h3>
+                  <p>Por defecto, el eje secundario es el vertical y la altura de los hijos es idéntica a la altura del padre. Esto es porque por defecto se utiliza .align-items: stretch.</p>
+                  <p>Las clases que permiten alinear en el eje secundario son:</p>
+                  <ul>
+                    <li class="summary__list-item">.align-items-start</li>
+                    <li class="summary__list-item">.align-items-center</li>
+                    <li class="summary__list-item">.align-items-end</li>
+                    <li class="summary__list-item">.align-items-stretch</li>
+                  </ul>
+                  <p>También se puede adaptar la alineación a los contextos como con .justify-content:</p>
+                  <p>.align-items-contexto-alineación</p>
+                  <p>Por ejemplo: .align-items-sm-center</p>
+                </div>
+                
+                <div class="subsection">
+                  <h3 class="summary__title--subtitle">Alineación individual de los hijos en el eje secundario</h3>
+                  <p>Las alineaciones anteriores se aplican al padre, para aplicar una alineación a uno de los hijos particulares usamos las clases:</p>
+                  <ul>
+                    <li class="summary__list-item">.align-self-start</li>
+                    <li class="summary__list-item">.align-self-center</li>
+                    <li class="summary__list-item">.align-self-end</li>
+                    <li class="summary__list-item">.align-self-stretch (por defecto)</li>
+                  </ul>
+                  <p>Estas clases se adaptan a los contextos de la misma manera que vimos anteriormente:</p>
+                  <p>.align-self-context-alineación</p>
+                  <p>Por ejemplo: .align-self-lg-end</p>
+                </div>
+
+                <div class="subsection">
+                  <h3 class="summary__title--subtitle">La magia de flex-fill</h3>
+                  <p>Es una clase muy usada en Bootstrap que nos permite aprovechar el comportamiento de los hijos flexibles.</p>
+                  <p>Por defecto, los hijos ocupan el tamaño de su contenido. Con .flex-fill hacemos que los hijos ocupen todo el espacio disponible del padre.</p>
+                  <p><strong>.flex-fill hace que los hijos tengan un tamaño idéntico</strong>, lo que es de gran utilidad al hacer menus de navegación. Para poder usar esto, debemos colocar la clase .flex-fill a todos los hijos. </p>
                 </div>
 
                 <div class="summary__navigation">
-                  <a href="chapter1.html" class="btn btn--previous">Previous Chapter</a>
+                  <a href="chapter3.html" class="btn btn--previous">Previous Chapter</a>
                   <a href="#" class="btn btn--next">Next Chapter</a>  
                 </div>
 
