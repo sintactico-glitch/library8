@@ -66,11 +66,8 @@
                 <h2 class="summary__title--main">Capítulo 1: Dominando el sistema de columnas</h2>
 
                 <div class="subsection">
-                  <ul>
-                    <li class="summary__list-item">El sistema de columnas es el elemento más importante de Bootstrap y permite distribuir elementos en diversas columnas</li>
-                    <li class="summary__list-item">Está basado en <strong>flexbox</strong>, lo que permite alinear los elementos de forma vertical y horizontal</li>
-                    <li class="summary__list-item">Bootstrap 4 es <strong>mobile first</strong> y el sistema de columnas está optimizado para <strong>trabajar primero con pantallas pequeñas</strong> y luego ir adaptándolas a pantallas más grandes (tablets, desktop, televisores, etc)</li>
-                </ul>
+                  <p>El sistema de columnas es el elemento más importante de Bootstrap y permite distribuir elementos en diversas columnas. Está basado en <strong>flexbox</strong>, lo que permite alinear los elementos de forma vertical y horizontal.</p>
+                  <p>Bootstrap 4 es <strong>mobile first</strong> y el sistema de columnas está optimizado para <strong>trabajar primero con pantallas pequeñas</strong> y luego ir adaptándolas a pantallas más grandes (tablets, desktop, televisores, etc).</p>
                 </div>
 
                 <div class="subsection">
@@ -80,8 +77,8 @@
                     <img src="../../../img/summaries/biblia_bootstrap/clase01_estructura_sistema_columnas.jpg" alt="">
                   </div>
 
+                  <p>Para crear el sistema de columnas se puede usar cualquier etiqueta (section, article, etc) pero se suele usar div ya que son etiquetas contenedoras que no transmiten significado semántico</p>
                   <ul>
-                    <li class="summary__list-item">Para crear el sistema de columnas se puede usar cualquier etiqueta (section, article, etc) pero se suele usar div ya que son etiquetas contenedoras que no transmiten significado semántico</li>
                     <li class="summary__list-item">En primer lugar se coloca la clase <strong>.container</strong> al div contenedor</li>
                     <li class="summary__list-item">Dentro del .container se crea un div con la clase <strong>.row</strong> </li>
                     <li class="summary__list-item">Dentro de la .row creamos las columnas que vamos a utilizar con la clase <strong>.col</strong></li>
@@ -104,6 +101,76 @@
                     <li class="summary__list-item">Si las filas no son <strong>hijas directas del contenedor</strong>, el sistema de grillas no funcionará</li>
                     <li class="summary__list-item">Podemos tener más de una fila por contenedor</li>
                 </ul>
+                </div>
+
+                <div class="subsection">
+                  <h3 class="summary__title--subtitle">Regla 4: Las columnas tienen que ser hijas directas de una fila</h3>
+                  <ul>
+                    <li class="summary__list-item">Podemos incluir un elemento (como un titular) como hijo directo de un contenedor. Esto no funciona con las filas.</li>
+                    <li class="summary__list-item"><strong>Dentro de una fila no puede ir ningún tipo de contenido</strong>. El contenido siempre debe ir dentro de las columnas.</li>
+                  </ul>
+                </div>
+
+                <div class="subsection">
+                  <h3 class="summary__title--subtitle">Regla 5: Una fila puede tener 12 columnas como máximo</h3>
+                  <p>Al asignar la clase .col, asignamos un número que corresponde a la cantidad de columnas que va a ocupar (.col-12 para 12 columnas, .col-6 para 6 columnas, etc).</p>
+                </div>
+
+                <div class="subsection">
+                  <h3 class="summary__title--subtitle">Regla 6: Si superamos las 12 columnas por fila, las siguientes saltarán abajo formando una nueva fila</h3>
+                </div>
+
+                <div class="subsection">
+                  <h3 class="summary__title--subtitle">Regla 7: El contenido tiene que ir dentro de las columnas</h3>
+                  <p>No podemos crear contenido a la altura de las columnas. <strong>Dentro de .row</strong> Bootstrap está esperando que creemos .col. <strong>Si colocamos cualquier otro elemento</strong> (h2, p, etc) <strong>se va a romper la grilla</strong>.</p>
+                </div>
+
+                <div class="subsection">
+                  <h3 class="summary__title--subtitle">Regla 8: La clase .col nos permite crear columnas de proporciones idénticas</h3>
+                  <ul>
+                    <li class="summary__list-item">La clase .col distribuye de forma idéntica las columnas en una fila.</li>
+                    <li class="summary__list-item">Las columnas planteadas así se adaptan al contenido. Si una de las columnas tiene mayor contenido, el resto de las columnas se va a dividir de forma equitativa el espacio disponible restante.</li>
+                  </ul>
+                </div>
+
+                <div class="subsection">
+                  <h3 class="summary__title--subtitle">Regla 9: Podemos modificar la medida de una columna dependiendo del tamaño de pantalla</h3>
+                  <div class="summary__image">
+                    <img src="../../../img/summaries/biblia_bootstrap/clase01_tamanos_pantalla.jpg" alt="">
+                  </div>
+                  <p>Por lo general, se suelen definir los contextos .col y .col-md.</p>
+                </div>
+                
+                <div class="subsection">
+                  <h3 class="summary__title--subtitle">Regla  10: Los contextos se heredan de menor a mayor</h3>
+                  <p>Una vez que establecemos las columnas en un contexto en pantallas pequeñas, se va a heredar para los contextos de mayor tamaño. </p>
+                </div>
+
+                <div class="subsection">
+                  <h3 class="summary__title--subtitle">Regla 11: Podemos crear columnas vacías</h3>
+                  <p>Si queremos tener columnas vacías entre columnas de contenido no es recomendable crear un div vacío. Esto crea código HTML innecesario.</p>
+                  <p>Con la clase <strong>.offset</strong> podemos crear separaciones entre columnas. Esta clase mueve hacia la derecha la cantidad de columnas que indiquemos numéricamente (ej, .offset-2 mueve 2 columnas).</p>
+                  <p>También podemos asignar .offset a contextos determinados, ej .offset-sm-2. Si queremos que en algún contexto no haya separación podemos usar .offset-lg-0, por ejemplo. </p>
+                </div>
+
+                <div class="subsection">
+                  <h3 class="summary__title--subtitle">Regla 12: Podemos crear columnas anidadas</h3>
+                  <p>Para crear columnas dentro de una columna no es necesario colocar un contenedor, basta crear un div con .row. </p>
+                  <div class="summary__image">
+                    <img src="../../../img/summaries/biblia_bootstrap/clase01_columnas_anidadas.jpg" alt="">
+                  </div>
+                </div>
+
+                <div class="subsection">
+                  <h3 class="summary__title--subtitle">Regla 13: Podemos reordenar las columnas</h3>
+                  <p>Esto es posible ya que el sistema de columnas de Bootstrap se basa en flexbox.</p>
+                  <p>El orden visual de las columnas cambia pero el código HTML se mantiene intacto.</p>
+                  <ul>
+                      <li class="summary__list-item">Se usa la clase .order- para controlar el orden visual del contenido</li>
+                      <li class="summary__list-item">Los valores que toma van del 0 al 12 (.order-1, .order-3, etc). El orden por defecto de las columnas es de 0. </li>
+                      <li class="summary__list-item">Bootstrap va a ordenar las columnas de menor a mayor. Si tenemos 4 columnas y una sola tiene .order-1, esta columna se mostrará al final de la fila ya que todas las demás tienen valor 0.</li>
+                      <li class="summary__list-item">Se puede utilizar para establecer orden visual de columnas en distintos contextos (.order-md-3, .order-lg-5, etc).</li>
+                  </ul>
                 </div>
 
                 <div class="summary__navigation">
