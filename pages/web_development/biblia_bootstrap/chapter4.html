@@ -63,23 +63,53 @@
             <div class="col-12 col-lg-10 offset-lg-1">
               <span class="anchor" id="chapter1"></span>
               <article>
-                <h2 class="summary__title--main">Capítulo 3: Espaciados</h2>
+                <h2 class="summary__title--main">Capítulo 5: Usando Flexbox</h2>
 
                 <div class="subsection">
-                  <h3 class="summary__title--subtitle">Clases para margin y padding</h3>  
-                  <div class="summary__image">
-                    <img src="../../../img/summaries/biblia_bootstrap/clase03_espaciados.jpg" alt="">
-                  </div>
-                  <p>Ejemplo para margin top 1 rem: mt-3.</p>
-                  <p>Ejemplo para padding bottom 1 rem: pb-3.</p>
+                  <h3 class="summary__title--subtitle">Trabajando con d-flex</h3>  
+                  <p>Todo el sistema de columnas de Bootstrap está basado en flexbox. Las clases .row tienen display: flex, lo que permite que las .col se coloquen una al lado de la otra.</p>
+                  <p>Clases para crear un flex container:</p>
+                  <ul>
+                      <li class="summary__list-item">.d-flex</li>
+                      <li class="summary__list-item">.d-sm-flex</li>
+                      <li class="summary__list-item">.d-md-flex</li>
+                      <li class="summary__list-item">.d-lg-flex</li>
+                      <li class="summary__list-item">.d-xl-flex</li>
+                  </ul>
+                  <p>Si queremos sacar el entorno flexible asignamos la clase .d-block (con sus variables respectivas dependiendo de los contextos).</p>
                 </div>
 
                 <div class="subsection">
-                  <h3 class="summary__title--subtitle">Margin y padding responsive</h3>  
-                  <p>Para definir márgenes y padding responsive usamos la siguiente estructura:</p>
-                  <p>(Propiedad)(Lado)-(Contexto)-(Tamaño)</p>
-                  <p>Ejemplo: my-sm-2 (margin top y bottom en sm de 1.5rem)</p>
-                  <p>Este ejemplo con padding sería py-sm-2 (padding top y bottom en sm de 1.5rem)</p>
+                  <h3 class="summary__title--subtitle">Cambiando la orientación con flexbox</h3>
+                  <p>Para cambiar la orientación le agregamos las siguientes clases al flex container:</p>
+                  <ul>
+                      <li class="summary__list-item">.flex-row</li>
+                      <li class="summary__list-item">.flex-column</li>
+                      <li class="summary__list-item">.flex-row-reverse</li>
+                      <li class="summary__list-item">.flex-column-reverse</li>
+                      <li class="summary__list-item">.flex-md-row, etc</li>
+                      <li class="summary__list-item">.flex-md-column, etc</li>
+                  </ul>
+                </div>
+
+                <div class="subsection">
+                  <h3 class="summary__title--subtitle">Alineación en el eje principal con flexbox</h3>
+                  <p>Las siguientes clases se aplican al flex container:</p>
+                  <ul>
+                      <li class="summary__list-item">.justify-content-start</li>
+                      <li class="summary__list-item">.justify-content-center</li>
+                      <li class="summary__list-item">.justify-content-end</li>
+                      <li class="summary__list-item">.justify-content-between</li>
+                      <li class="summary__list-item">.justify-content-around</li>
+                      <li class="summary__list-item">.justify-content-evenly</li>
+                  </ul>
+                  <p>Estas clases también se pueden utilizar de forma responsive, dependiendo de los distintos contextos que maneja Bootstrap. La estructura a utilizar es: </p>
+                  <p>.justify-content-contexto-alineación</p>
+                  <p>Por ejemplo: .justify-content-md-center</p>
+                </div>
+
+                <div class="subsection">
+                  <h3 class="summary__title--subtitle"></h3>
                 </div>
 
                 <div class="summary__navigation">
