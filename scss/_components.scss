@@ -346,3 +346,37 @@
 main {
     padding: 3rem 0;
 }
+
+// Footer
+.footer {
+    background-color: $black;
+    color: $white;
+    padding: 4rem 0;
+
+    &__logo {
+        font-family: $font-logo;
+        font-size: $size4;
+    }
+
+    &__description {
+        font-size: $size6;
+        font-family: $font-text;
+    }
+
+    &__section {
+        margin-bottom: 1.5rem;
+    }
+
+    &__title {
+        text-transform: uppercase;
+        font-family: $font-text;
+        font-weight: 700;
+        font-size: $size4;
+        margin-bottom: 0;
+    }
+
+    &__list {
+        list-style: none;
+        padding-left: 0;   
+    }
+}
