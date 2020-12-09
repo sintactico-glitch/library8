@@ -60,6 +60,7 @@
 .hero__title {
   font-size: 3rem;
   padding: 0.15em 0.3em;
+  display: inline-block;
 }
 
 .hero__text {
@@ -414,6 +415,10 @@ main {
 /*  Hero Img for Investing */
 #bullshit_jobs {
   background-image: url(../img/hero/hero_bulshit_jobs.jpg);
+}
+
+#age_cryptocurrency {
+  background-image: url(../img/hero/hero_age_cryptocurrency.jpg);
 }
 
 /*  Hero Img for Studies */
