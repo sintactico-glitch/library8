@@ -36,4 +36,37 @@ This debate is also present around cryptocurrencies:
 - Metallist treated the digital currency as a scarce commodity, a THING to be mined and stored. A thing whose mathematically proven finite supply ensures its value will rise above the unlimited fiat currencies 
 - Chartalist describe bitcoin not as a currency but as a PAYMENT PROTOCOL. They're more concerned with the underlying computer network's capacity to rearrange the rules of trust around which society manages exchanges of value. They see money as a system for settling and recording debt obligations
 
-(PAGE 38-39)
+
+THE ROLE OF GOVERNMENT 
+
+Metallists consider that governments simply played an endorsement role, authenticating the quality and quantity of metal in each coin. For chartalists, the state evolved to become the ultimate clearinghouse for debts and credits through its monopoly over taxes, which could only be paid in the coin of the realm.
+
+For most of its history, currency has been issued by those who rule, kings or democratically elected governments. These rulers have stamped their authority on their currency, reminding citizens of the deep connection between money and power. 
+
+Artistic imagery on currency helps avoid counterfeit and it also supports the fiction that a money token has intrinsic value. It gives the coin authenticity and it works as an advertisement of the omnipresence of the realm.
+
+CENTRAL BANKS 
+
+The rulers in each land kept tight control over their currencies, but the new banking class during the Italian Renaissance developed its own international exchanges through credit creation.
+
+We can trace this back to the creation of the Bank of England in 1694:
+- The Bank of England was created on behalf of King William III, that wanted to creat a ship to take to France
+- The Bank was privately owned and it lent the Crown 1.2 million pounds, after which they could issue banknotes against that debt. Meaning they were relending the money
+- To give the banknotes value as currency, the Crown agreed to accept them in payment of taxes
+- This gave the Bank of England a licence to print money
+- The relending of most of the money they take in is something banks continue to do to this day
+
+This financial leap gave a giant boost to loquidity in the economy, but it also greatly increased risk. Losses in one institution could ripple out and destabilize many others through the interconnections of the financial system. This made trust very unstable.
+
+CURRENCY 
+
+For a currency to become money it must function as:
+- a medium of exchange
+- a unit of account
+- a store of value
+
+What matters most is whether that currency has utility. Does it enhance our ability to engage in exchange, commerce and human interaction?
+
+Bitcoin has something to offer: a remarkable capacity to facilitate low-cost, near-instant transfer of value anywhere in the world.
+
+A large community of Bitcoin users could be the push it needs to become money. 
