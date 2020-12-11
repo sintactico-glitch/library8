@@ -1,0 +1,26 @@
+GETTING STARTED WITH TECHNICAL ANALYSIS
+Jack D. Schwager
+
+- CHAPTER 1: Charts: Forecasting Tool or Folklore?
+
+Many of our commonsense instincts about market behavior are wrong. Chart analysis gives us the means of acquiring common sense in trading, something far more elusive than it sounds.
+
+Daily prices are the consequence of the collective activity of all market participants. Human behavior may not be as predictable as the motion of planets as governed by the laws of physics, but neither is totally random. 
+
+Charts reveal basic behavioral patterns. Since similar interactions between buyers and sellers will result in similar price patterns, the past can be used as a guideline for the future.
+
+Chart analysis is an art, not a science. A familiarity with basic chart theories is only the starting point. The true usefulness of charts depends onf the individual trader's ability to synthesize successfully their own experience with standard concepts.
+
+    The argument between the random walkers and chartist can never be clearly solved. It's impossible to prove randomness; all that one can prove is that a given pattern doesn't exist.
+    Because there is no consensus as the precise mathematical definition of many chart patterns, the viability of these patterns as price indicators can neither be proven or disproven.
+
+Markets may witness extended periods of random fluctuation, with shorter periods of nonrandom behavior. The goal of the chart analysis is to identify these periods (meaning the major trends).
+
+Some of the principal potential benefits of using charts are: 
+- Charts provide a concise price history
+- Charts can provide traders a good sense of the market's volatility, which is vital for assessing risk
+- Charts can be used as a timing tool, even for traders that base their decisions on fundamental analysis
+- Charts can be used to determine meaningful and realistic stop points
+- Charts reflect market behavior that is subject to certain repetitive patterns. For example, regular purchases when the price reaches a support zone
+- An understanding of chart concepts is an essential prerequisite for developing profitable technical trading systems
+

@@ -1,0 +1,16 @@
+GETTING STARTED WITH TECHNICAL ANALYSIS
+Jack D. Schwager
+
+- INTRODUCTION
+
+Fundamental analysis involves the use of economic data (P/E ratios, crop reports, import/export figures) to determine if a market is overvalued or undervalued. 
+
+Technical analysis is the study of price patterns to identify favorable trade opportunities. This approach considers that : 
+- The price of a particular stock, commodity or financial future reflects all the knowable information about that asset at any given time, and the opinions of all market participants regarding that information.
+- The fundamental information and market opinions reflected by price will result in recurring price patterns that give clues to potential future price movements
+
+Technicians don't dismiss the relevance of fundamental analysis, they believe that price data incorporates and reflects this factors. So the best way to understand their impact on market behavior is to analyze price.
+
+    The primary difference between the two approaches is that fundamental analysis is concerned with the WHY of market behavior, while technical analysis is more concerned with the when.
+
+

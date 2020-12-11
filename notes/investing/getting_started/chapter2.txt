@@ -1,0 +1,20 @@
+GETTING STARTED WITH TECHNICAL ANALYSIS
+Jack D. Schwager
+
+- CHAPTER 2: TYPES OF CHARTS 
+
+In the case of stocks, the opening and closing prices represent the actual first and last sales of the day as recorded by the specialist in a particular equity.
+
+    Used in combination, the monthly, weekly and daily charts provide a telephoto-type effect.
+    The monthly and weekly charts would be used to provide a broad market perspective and to formulate a technical opinion regarding the potential long-term trend. 
+    The daily chart would be then used to determine the timing of the trades.
+
+The difference in perspective between daily and weekly charts can be striking: both types of charts should be examined.
+
+STOCK SPLITS 
+When the price of a stock splits, all past prices are adjusted proportionately so that the split itself doesn't cause any price change.
+For example, if a stock trading at $50 and has a 2:1 split, the current price becomes $25. If no adjustment is made, the chart would show a price change from $50 to $25 in a day. To avoid this distortion, all past prices would be divided by the split ratio (in this case, 2). 
+While past prices prior to stock splits would not reflect the actual stock price at the time, the series would be affected by only true price moves, as opposed to moves due to stock splits.
+
+
+
