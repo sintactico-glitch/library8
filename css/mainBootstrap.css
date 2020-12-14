@@ -421,6 +421,10 @@ main {
   background-image: url(../img/hero/hero_age_cryptocurrency.jpg);
 }
 
+#getting_started {
+  background-image: url(../img/hero/hero_getting_started.jpg);
+}
+
 /*  Hero Img for Studies */
 #whose_story {
   background-image: url(../img/hero/hero_whose_story.jpg);
