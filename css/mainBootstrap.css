@@ -226,6 +226,10 @@
   font-size: 1.95rem;
 }
 
+.index__title--subtitle {
+  margin: 0 0 .9rem 0;
+}
+
 .index__list {
   list-style-position: inside;
   padding-left: 0;
