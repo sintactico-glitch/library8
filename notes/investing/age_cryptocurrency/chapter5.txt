@@ -1,0 +1,69 @@
+BUILDING THE BLOCKCHAIN
+The Age of Cryptocurrency
+Paul Vigna
+
+Until now, monetary systems have been built on centralized ledger-keeping, whether by banks or by central banks operating as economy-wide ledgers. The problem with this model is that it confers too much power and excessive profit to those central record-keepers.
+
+To create a less centralized system you had to:
+- Figure out a way to assign the shared record-keeping task to a group of individuals/institutions connected to a network, and give them some incentive to perform those tasks
+- Ensure that their common ledger has no way for one of the record-keepers to tamper with it and introduce errors that others wouldn't notice
+- Imbue the whole group with a sense of trust in its own rules, a trust that acts as a barrier to bad behavior
+
+The internet solved the problem of creating a network of instant universal communication. Bitcoin handled the other two challenges. 
+
+Based on a consensus view among the miners as to which transactions are legitimate and which are not, the ledger provides irrefutable proof of who owns what and what has been spent and received. 
+
+    The blockchain is everything to bitcoin. This ever-shifting accounting of debits and credits constitutes the currency itself. 
+    The balance you see in you wallet is simply a net value of spending power based on an accounting of the incoming and outgoing transactions.
+
+An important thing to note is that the ever-lenghtening blockchain of confirmed transactions is public. That distinguishes bitcoin from closed electronic-currency systems as PayPal, where the ledger is tightly kept secret.
+
+PUBLIC KEYS
+
+When we look at the addresses on the blockchain, we see nothing to identify their owners. What we see are public keys.
+
+Financial institutions and email services also use public-key encryption systems. That mainly is applying a secret password for an online account to your not-so-secret user name. With this system, someone can discover the private key if they gain access to the computer or smartphone where it resides. That's why it's important for people to safeguard their wallets. 
+
+    The traceability of this record of transactions helps build community trust in the monetary system.
+
+Unlike with credit card transactions (which are linked to individual's name and that's known by that person's bank), a bitcoin access has no personal connection. However, the public key (the alphanumeric identifiers) can be tracked by law inforcement in a way that's impossible with cash.
+
+MINING
+
+The essential work doing is not mining, but bookkeeping. The underlying value of bitcoin is in LABOR, the computational difficulty required to update the blockchain. The harder this gets, the more real-world resources are spent performing the task, mainly in electricity costs. 
+
+    The amount of work (the computing equivalent of man-hours) give legitimacy to the ledger, since it represents a significant collective investment in assuring its integrity. 
+
+For example, let's say you're buying a cup of coffee with bitcoin. Your wallet address, the coffee house's wallet address, the date and time stamp of the transaction and any other additional information is exchanged. 
+
+Each mining node or computer gathers all of this information and reduces it to an encrypted alphanumeric string of characters known as a has. No matter the lenght of the information sent, the hash always come out with a 64 character string length. But the smallests change in the information (like a decimal point or a space) will produce a new hash.
+
+The miner's software cliente takes the hash from your cup of coffee and combines it with the raw data of the next transaction, creating a new hash of BOTH transactions. This process continues as new transactions are picked up, with the computers constantly packing all the incoming data into a single hash. 
+
+While this is going on, the computers are also participating in a competition/lottery to try to be the first ones to "seal off" one of the blocks (preparing it for insertion in the blockchain ledger and earning the next issuance of bitcoins). Until this happens, the network can't begin to confirm the validity of the latest round of transactions.
+
+The machines enter the competition by simultaneously coming up with new potential block codes that capture all the data and link it to the block hash of the previous block. The winning block hash must match one that bitcoin's core algorithm decided will be the current block's winning number.
+
+Miners are set the task of solving the puzzle for 2 reasons:
+1. It imposes a cost of mining, in terms of machinery and electricity. This helps to regulate mining since without it bitcoins would be earned for free.
+2. It creates a competition with a payout at the end, which incentives the miners to do the work needed to confirm the transactions.
+
+Once the puzzle is solved, the bitcoin software client that's running the winning node's machine "seals off" a new block of transactions with the block hash and assigns it a block numebr that sequentially follows the last block number of the ever-extending blockchain.
+
+After this new block is added,  other miners must confirm the legitimacy of the underlying transactions contained within it. WITHOUT THEIR CONFIRMATION, NO SHARED CONSENSUS EXISTS ON THE TRUTH OF WHAT LIES IN THE BLOCKCHAIN.
+
+    In monetary-theory terms, the payout is seigniorage (the profit that a currency issuer derives form the privilege of minting the community's money).
+
+SCREENSHOT THE CHART ON THE TABLET TO ADD WITH GOOD QUALITY
+
+Miners perform a task with the sole goal of winning a race to earn bitcoin, and almost as an unintended result, they end up confirming transactions along the way and keeping the blockchain up-to-date. 
+
+This is the basis upon which bitcoin's protocol decised who should earn the seigniorage: a model founded on the idea that in return for this privilege the recipients must invest resources (equipment and electricity) and that their computer MUST DO WORK.
+
+A key element of the blockchain is that it halves bitcoin issuance every roughly 4 years. This creates a sense of scarcity over should support bitcoin's value. But new bitcoins aren't the only way that miners get compensated. The core software also has the ability to charge transaction fees, paid by the sender. 
+
+As the issuance rate of new bitcoins slows, the algorithm will need to be tweaked to make transaction fees a more important part of miners' remuneration to keep them incentivized to do their job. 
+
+    While bitcoin is far more efficient as a payment system than the bank-centric, centralized system, it's not free. 
+    Both seigniorage and transaction fees represent a transfer of value to those running the network. Still, these costs are far lower than anything found in the old system. 
+
