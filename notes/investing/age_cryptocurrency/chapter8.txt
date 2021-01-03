@@ -1,0 +1,24 @@
+THE UNBANKED 
+The Age of Cryptocurrency
+Paul Vigna
+
+One of the biggest and most exciting prospects bitcoiners talk about is using cryptocurrency to bring the billions of people that can't access traditional banking to the 21st century. 
+
+Without savings accounts, without access to banking services, millions of people in emerging markets (and in advanced markets as well) have a difficult time building up lasting wealth. It's just one more challenge that leaves them trapped in poverty. 
+
+There's also great challenges that exist in conducting day-to-day commerce in developing countries: 
+- For a merchant whose customers don't have access to credit, carrying around all that cash can be dangerous. 
+- For a customer without a bank account, building up any kind of savings is virtually impossible.
+
+One of the main obstacles that keeps people from banking is the documentation requirements that banks have. Without documentation  to prove their identity, to put up collateral and to create credit histories, the world's poor lack the basic foundations for participating in the world's banking system. This limits them to cash transactions. To this we can also add excessive bureaucracy, cultural snobbery and corruption. 
+
+People in developing countries may be better prepared mentally than people in the West for digital money: 
+- People who suffered waves of financial crises are used to volatility. 
+- People who have spent years trusting expensive middlemen and flipping back and forth between dollars and their home currency are more likely to understand bitcoin's advantages.
+
+However, people without a lot of money are naturally wary of a risky new form of payment in a currency that not everyone accepts and many have never heard of. Paying Western Union up to 11% to send money to relatives overseas may be annoying but it has always worked. 
+
+The potential is great for people in the informal economy to exploit the blockchain's middleman-free way of exchange assets and information and its irrefutable public record that's free from the control of any one central institution. These features create unique opportunities for them to overcome legal and institutional barriers to advancement. 
+
+
+
