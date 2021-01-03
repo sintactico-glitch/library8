@@ -58,7 +58,7 @@ SCREENSHOT THE CHART ON THE TABLET TO ADD WITH GOOD QUALITY
 
 Miners perform a task with the sole goal of winning a race to earn bitcoin, and almost as an unintended result, they end up confirming transactions along the way and keeping the blockchain up-to-date. 
 
-This is the basis upon which bitcoin's protocol decised who should earn the seigniorage: a model founded on the idea that in return for this privilege the recipients must invest resources (equipment and electricity) and that their computer MUST DO WORK.
+This is the basis upon which bitcoin's protocol decides who should earn the seigniorage: a model founded on the idea that in return for this privilege the recipients must invest resources (equipment and electricity) and that their computer MUST DO WORK.
 
 A key element of the blockchain is that it halves bitcoin issuance every roughly 4 years. This creates a sense of scarcity over should support bitcoin's value. But new bitcoins aren't the only way that miners get compensated. The core software also has the ability to charge transaction fees, paid by the sender. 
 

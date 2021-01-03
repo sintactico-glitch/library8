@@ -1,0 +1,66 @@
+THE ARMS RACE 
+The Age of Cryptocurrency
+Paul Vigna
+
+As bitcoin mining becomes more popular, the computational power required to mine gets higher and higher. This translates to higher energy costs and usage. 
+
+Is all this expenditure and resource use worth it? Adam Smith spoke of this back in the 18th century, arguing that to expend effort and real resources on mining gold for coins was wasteful since a currency is nothing but a symbol.
+
+This analogy overlooks several crucial factors:
+- Power consumption must be measured against the value of validating transactions in a payment system, a social service that gold mining never provided. 
+- The costs must be weighed against the high energy costs of the alternative, traditional payment system, with its bank branches, armored cars, and security systems.
+- There's an incentive for efficiency that pushes miners towards innovation, which is why we've seen such giant reductions in power consumption for the new mining machines. 
+
+Bitcoin's environmental doomsday is not just around the corner. But it would be irresponsible to ignore energy usage as a concern. 
+
+FORKS IN THE BLOCKCHAIN
+
+There is supposed to be a single blockchain, the ledger's sequentially arranged hash-based linkages create an unbroken, monolithic record of all confirmed transactions. Short-lived forks will arise from time to time in the blockchain, sometimes when an orphaned block is created that is deemed incomplete or whose transactions are unconfirmed. 
+
+This happens because other miners tried to verify the block and weren't confidente in attaching to it. But the genius of the consensus-building in the bitcoin system means such forks shouldn't be allowed to go on for long.
+
+    The mining community works on the assumption that the longest chain is the one that constitutes consensus. 
+
+The majority of miners, by working together on a particular line of the chain, are conferring legitimacy on it, collectively having more total hashing power than any minority group that's mistakenly (or fraudulently) following a separate line of the chain without consensus support. 
+
+- On March 2013, a glitch occurred when bitcoin's core development team introduced the new version 0.8.
+- A fork in the blockchain was created because of it and it lasted for quite a long time. This is precisely what a fraudulent actor could exploit to double-spend bitcoins.
+- The glitch was fixed by going back to the 0.7 version, However, a case of $10.000 of double-spending was discovered. Also, miners had to release a total of 600 coins that were mined during this time. 
+- This glitch incident caused bitcoin's price to briefly plunge by 24%.
+
+THE 51 PERCENT ATTACK
+
+The March 2013 fork brought new attention to a concern many members of the community had: that industrialized mining operations could one day afford someone the power to create a fork intentionally by seizing majority control of the total hashing power. This is known as a 51 percent attack.
+
+Nakatomo's original paper stated that the bitcoin mining network could be guaranteed to treat everyone's transactions fairly and honestly so long as no single miner or mining group owned more than 50% of the hashing power. 
+
+What if a powerful conglomerate took control of all that mining power? They could then fill a block with fraudulent transactions and then (equally fraudulently) confirm them. And since they0d be winning more than every second block, they could continue to build a viable, lenghty blockchain that other miners would assume to be the truthfull one, all by virtue of its length.
+
+Nothing malevolent like this has happened so far or is likely to happen. As Nakamoto stated in his paper: "If a greedy attacker is able to assemble more CPU power than all the honest nodes, he would have to choose between using it to defraud people by stealing back his payments, or using it to generate new coins. He ought to find it more profitable to play by the rules, such rules that favour him with more new coins than everyone else combined, than to undermine the system and the validity of his own wealth". 
+
+    Self-interest should prevent anyone with a stake in bitcoin from destroying it. 
+
+But what if bad actors have no interest in seeing bitcoin succeed? What if their whole motivation is to bring the system down, not to profit from bitcoin investments?
+
+This concern will become relevant only if bitcoin reaches enough penetration that its destruction would matter. And by the time this would happen, the attackers would need enormous capital to pull it off. 
+
+BITCOIN BARONS
+
+Bitcoin's spectacular price rally created a small, international group of wealthy "bitcoin barons" almost overnight. They have a great interest in seeing the currency succeed and are both willing and able to make payments that others might not, simply to encourage adoption.
+
+Their intentions may be good, but if money is no object in their spending sprees, how can they apply the competitive discipline needed to drive prices lower for the rest of the bitcoin economy?
+
+    The wide wealth gap of the bitcoin barons sits poorly with the image of cryptocurrencies as community-driven money and an escape to the dominance of Wall Street. Narrowly controlled wealth and power don't attract trust. 
+
+Fiat currencies have these kind of imbalances but they don't have to win people over. For cryptocurrencies, these kinds of situations may need to be revised if their future is to be assured. 
+
+ALTCOINS
+
+The 51% attack threat eats at a lot of bitcoin intellectuls since it's the one irrefutable structural weakness in the bitcoin system. All the other dangers mentioned so far (hacked wallets, crime, price volatility) aren't problems with bitcoin itself but with the ecosystem that developed around it. 
+
+A solution to this has been innovation through altcoins. Bitcoin's fully open-source, collaborative approach makes it possible. 
+
+Some altcoins use "proof of stake" as an alternative to the "proof of work" paradigm's wasteful and costly computing. This way, your computer's rights to rewards for confirming transactions increase the more you are invested in the coin's monetary supply. 
+
+With this model, your chances of winning the lottery to seal off a block depend not on your hashing power but on how many proven coins you own. The idea is that this removes the incentive to build up environmentally destructive and wasteful computing power. 
+
