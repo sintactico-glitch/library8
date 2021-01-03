@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@400;500;600&family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="../../../img/infinity_icon.png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../../css/bootstrap.css">
+    <link rel="stylesheet" href="../../../css/mainBootstrap.css">
+    <title>Chapter 5 - The Age of Cryptocurrency</title>
+</head>
+<body>
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="../../../indexBootstrap.html">Infinite Library</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../../../indexBootstrap.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Categories
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Awareness</a>
+                      <a class="dropdown-item active" href="../../investing.html">Investing <span class="sr-only">(current)</span></a>
+                      <a class="dropdown-item" href="../../studies.html">Studies</a>
+                      <a class="dropdown-item" href="../../web_development.html">Web Development</a>
+                      <a class="dropdown-item" href="#">Worldbuilding</a>
+                    </div>
+                  </li>
+            </ul>
+            </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero" id="age_cryptocurrency">
+      <div class="hero__container container">
+          <div class="row">
+              <div class="col-11 col-md-12 col-lg-12 hero__container">
+                  <h1 class="hero__title">The Age of Cryptocurrency</h1>
+                  <p class="hero__text">Paul Vigna & Michael J. Casey</p>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <main>
+      <section class="summary">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-10 offset-lg-1">
+              <span class="anchor" id="chapter1"></span>
+              <article>
+                <h2 class="summary__title--main">Chapter 4: Building the Blockchain</h2>
+
+                <div class="subsection">
+                  <p>Until now, monetary systems have been built on centralized ledger-keeping, whether by banks or by central banks operating as economy-wide ledgers. The problem with this model is that it confers too much power and excessive profit to those central record-keepers.</p>
+                  <p>To create a less centralized system you had to:</p>
+                  <ul>
+                    <li class="__summary--list-item">Figure out a way to assign the shared record-keeping task to a group of individuals/institutions connected to a network, and give them some incentive to perform those tasks.</li>
+                    <li class="__summary--list-item">Ensure that their common ledger has no way for one of the record-keepers to tamper with it and introduce errors that others wouldn't notice.</li>
+                    <li class="__summary--list-item">Imbue the whole group with a sense of trust in its own rules, <strong>a trust that acts as a barrier to bad behavior</strong>.</li>
+                  </ul>
+                  <p>The internet solved the problem of creating a network of instant universal communication. Bitcoin handled the other two challenges. </p>
+                  <p>Based on a consensus view among the miners as to which transactions are legitimate and which are not, <strong>the ledger provides irrefutable proof</strong> of who owns what and what has been spent and received. </p>
+                  <div class="highlight">
+                    <p><strong>The blockchain is everything to bitcoin. This ever-shifting accounting of debits and credits constitutes the currency itself. </strong></p>
+                    <p>The balance you see in you wallet is simply a <strong>net value of spending power</strong> based on an accounting of the incoming and outgoing transactions.</p>
+                  </div>
+                  <p>An important thing to note is that the ever-lenghtening blockchain of confirmed transactions is public. That distinguishes bitcoin from closed electronic-currency systems as PayPal, where the ledger is tightly kept secret.</p>
+                </div>
+
+                <div class="subsection">
+                  <h4 class="summary__title--subtitle">Public Keys</h4>
+                  <p>When we look at the addresses on the blockchain, we see nothing to identify their owners. What we see are public keys.</p>
+                  <p>Financial institutions and email services also use public-key encryption systems. That mainly is applying a secret password for an online account to your not-so-secret user name. With this system, someone can discover the private key if they gain access to the computer or smartphone where it resides. That's why it's important for people to safeguard their wallets. </p>
+                  <div class="highlight">
+                    <p>The traceability of this record of transactions helps build community trust in the monetary system.</p>
+                  </div>
+                  <p>Unlike with credit card transactions (which are linked to individual's name and that's known by that person's bank), <strong>bitcoin transactions access no personal connection</strong>. However, the public key (the alphanumeric identifiers) can be tracked by law inforcement in a way that's impossible with cash.</p>
+                </div>
+
+                <div class="subsection">
+                  <h4 class="summary__title--subtitle">Mining</h4>
+                  <p>The essential work doing is not mining, but bookkeeping. <strong>The underlying value of bitcoin is in <em>labor</em>, the computational difficulty required to update the blockchain</strong>. The harder this gets, the more real-world resources are spent performing the task, mainly in electricity costs. </p>
+                  <div class="highlight">
+                    <p><strong>The amount of work (the computing equivalent of man-hours) give legitimacy to the ledger, since it represents a significant collective investment in assuring its integrity</strong>.</p>
+                  </div>
+                  <p>For example, let's say you're buying a cup of coffee with bitcoin. Your wallet address, the coffee house's wallet address, the date and time stamp of the transaction and any other additional information is exchanged. </p>
+                  <p>Each mining node or computer gathers all of this information and reduces it to an encrypted alphanumeric string of characters known as a <em>hash</em>. No matter the lenght of the information sent, the hash always come out with a 64 character string length. But the smallest change in the information (like a decimal point or a space) will produce a new hash.</p>
+                  <p>The miner's software client takes the hash from your cup of coffee and combines it with the raw data of the next transaction, creating a new hash of <em>both</em> transactions. This process continues as new transactions are picked up, with the computers constantly packing all the incoming data into a single hash. </p>
+                  <p>While this is going on, the computers are also participating in a competition/lottery to try to be the first ones to "seal off" one of the blocks (preparing it for insertion in the blockchain ledger and earning the next issuance of bitcoins). Until this happens, the network can't begin to confirm the validity of the latest round of transactions.</p>
+                  <p>The machines enter the competition by simultaneously coming up with new potential block codes that capture all the data and link it to the block hash of the previous block. The winning block hash must match one that bitcoin's core algorithm decided will be the current block's winning number.</p>
+                  <p>Miners are set the task of solving the puzzle for 2 reasons:</p>
+                  <ol>
+                    <li class="summary__list-item">It imposes a cost of mining, in terms of machinery and electricity. This helps to regulate mining since without it bitcoins would be earned for free.</li>
+                    <li class="summary__list-item">It creates a competition with a payout at the end, which incentives the miners to do the work needed to confirm the transactions.</li>
+                  </ol>
+                  <p>Once the puzzle is solved, the bitcoin software client that's running the winning node's machine "seals off" a new block of transactions with the block hash and assigns it a block number that sequentially follows the last block number of the ever-extending blockchain.</p>
+                  <div class="summary__image">
+                    <img src="../../../img/summaries/age_cryptocurrency_confirming_transactions.jpg" alt="">
+                  </div>
+                  <p>After this new block is added,  other miners must confirm the legitimacy of the underlying transactions contained within it. <strong>Without their confirmation, no shared consensus exists on the truth of what lies in the blockchain</strong>.</p>
+                  <div class="highlight">
+                    <p>In monetary-theory terms, <strong>the payout is seigniorage</strong> (the profit that a currency issuer derives form the privilege of minting the community's money). </p>
+                  </div>
+                  <p>Miners perform a task with the sole goal of winning a race to earn bitcoin, and almost as an unintended result, they end up confirming transactions along the way and keeping the blockchain up-to-date. </p>
+                  <p>This is the basis upon which bitcoin's protocol decides <strong>who should earn the seigniorage</strong>: a model founded on the idea that <strong>in return for this privilege the recipients must invest resources (equipment and electricity) and that their computer <em>must do work</em></strong>.</p>
+                  <div class="highlight">
+                    <p>While bitcoin is far more efficient as a payment system than the bank-centric, centralized system, it's not free. </p>
+                    <p>Both seigniorage and transaction fees represent a transfer of value to those running the network. Still, these costs are far lower than anything found in the old system. </p>
+                  </div>
+                  <p>A key element of the blockchain is that it halves bitcoin issuance every roughly 4 years. This creates a sense of scarcity over should support bitcoin's value. But new bitcoins aren't the only way that miners get compensated. The core software also has the ability to charge transaction fees, paid by the sender. </p>
+                  <p>As the issuance rate of new bitcoins slows, the algorithm will need to be tweaked to make transaction fees a more important part of miners' remuneration to keep them incentivized to do their job. </p>
+                </div>
+
+                <div class="summary__navigation">
+                  <a href="chapter4.html" class="btn btn--previous">Previous Chapter</a>
+                  <a href="#" class="btn btn--next">Next Chapter</a>  
+                </div>
+
+                <a href="../age_cryptocurrency.html" class="btn">Back to Index</a>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    </main>
+    
+    <!-- Scripts Bootstrap -->
+    <script src="../../../js/jquery-3.5.1.slim.min.js"></script>
+    <script src="../../../js/popper.min.js"></script>
+    <script src="../../../js/bootstrap.min.js"></script>
+</body>
+</html>
