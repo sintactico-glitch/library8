@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@400;500;600&family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="../../../img/infinity_icon.png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../../css/bootstrap.css">
+    <link rel="stylesheet" href="../../../css/mainBootstrap.css">
+    <title>Chapter 6 - The Age of Cryptocurrency</title>
+</head>
+<body>
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="../../../indexBootstrap.html">Infinite Library</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../../../indexBootstrap.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Categories
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Awareness</a>
+                      <a class="dropdown-item active" href="../../investing.html">Investing <span class="sr-only">(current)</span></a>
+                      <a class="dropdown-item" href="../../studies.html">Studies</a>
+                      <a class="dropdown-item" href="../../web_development.html">Web Development</a>
+                      <a class="dropdown-item" href="#">Worldbuilding</a>
+                    </div>
+                  </li>
+            </ul>
+            </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero" id="age_cryptocurrency">
+      <div class="hero__container container">
+          <div class="row">
+              <div class="col-11 col-md-12 col-lg-12 hero__container">
+                  <h1 class="hero__title">The Age of Cryptocurrency</h1>
+                  <p class="hero__text">Paul Vigna & Michael J. Casey</p>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <main>
+      <section class="summary">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-10 offset-lg-1">
+              <span class="anchor" id="chapter1"></span>
+              <article>
+                <h2 class="summary__title--main">Chapter 6: The Arms Race</h2>
+
+                <div class="subsection">
+                  <p>As bitcoin mining becomes more popular, the computational power required to mine gets higher and higher. This translates to higher and higher energy costs and usage. </p>
+                  <p>Is all this expenditure and resource use worth it? Adam Smith spoke of this back in the 18th century, arguing that to expend effort and real resources on mining gold for coins was wasteful since a currency is nothing but a symbol.</p>
+                  <p>This analogy overlooks several crucial factors:</p>
+                  <ul>
+                    <li class="summary__list-item">Power consumption must be measured against <strong>the value of validating transactions in a payment system, a social service that gold mining never provided</strong>. </li>
+                    <li class="summary__list-item">The costs must be weighed against the high energy costs of the alternative, traditional payment system, with its bank branches, armored cars, and security systems.</li>
+                    <li class="summary__list-item">There's an incentive for efficiency that pushes miners towards innovation, which is why we've seen such giant reductions in power consumption for the new mining machines. </li>
+                  </ul>
+                  <p>Bitcoin's environmental doomsday is not just around the corner. But it would be irresponsible to ignore energy usage as a concern. </p>
+                </div>
+
+                <div class="subsection">
+                  <h4 class="summary__title--subtitle">Forks in the blockchain</h4>
+                  <p>There is supposed to be a single blockchain, the ledger's sequentially arranged hash-based linkages create an unbroken, monolithic record of all confirmed transactions. Short-lived forks will arise from time to time in the blockchain, sometimes when an orphaned block is created that is deemed incomplete or whose transactions are unconfirmed. </p>
+                  <p>This happens because other miners tried to verify the block and weren't confident in attaching to it. But the genius of the consensus-building in the bitcoin system means such forks shouldn't be allowed to go on for long.</p>
+                  <div class="highlight">
+                    <p><strong>The mining community works on the assumption that the longest chain is the one that constitutes consensus.</strong> </p>
+                  </div>
+                  <p>The majority of miners, by working together on a particular line of the chain, are conferring legitimacy on it, collectively having more total hashing power than any minority group that's mistakenly (or fraudulently) following a separate line of the chain without consensus support. </p>
+                  <ul>
+                    <li class="summary__list-item">On March 2013, a glitch occurred when bitcoin's core development team introduced the new version 0.8. A fork in the blockchain was created because of it and it lasted for quite a long time. This is precisely what a fraudulent actor could exploit to double-spend bitcoins.</li>
+                    <li class="summary__list-item">The glitch was fixed by going back to the 0.7 version, However, a case of $10.000 of double-spending was discovered. Also, miners had to release a total of 600 coins that were mined during this time. </li>
+                    <li class="summary__list-item">This glitch incident caused bitcoin's price to briefly plunge by 24%.</li>
+                  </ul>
+                </div>
+
+                <div class="subsection">
+                  <h4 class="summary__title--subtitle">The 51% Attack</h4>
+                  <p>The March 2013 fork brought new attention to a concern many members of the community had: that industrialized mining operations could one day afford someone the power to create a fork intentionally by seizing majority control of the total hashing power. This is known as a 51 percent attack.</p>
+                  <p>Nakatomo's original paper stated that   <strong>the bitcoin mining network could be guaranteed to treat everyone's transactions fairly and honestly so long as no single miner or mining group owned more than 50% of the hashing power</strong>. </p>
+                  <p>What if a powerful conglomerate took control of all that mining power? They could then fill a block with fraudulent transactions and then (equally fraudulently) confirm them. And since they'd be winning more than every second block, they could continue to build a viable, lenghty blockchain that other miners would assume to be the truthfull one, all by virtue of its length.</p>
+                  <p>Nothing malevolent like this has happened so far or is likely to happen. As Nakamoto stated in his paper: "If a greedy attacker is able to assemble more CPU power than all the honest nodes, he would have to choose between using it to defraud people by stealing back his payments, or using it to generate new coins. <strong>He ought to find it more profitable to play by the rules, such rules that favour him with more new coins than everyone else combined, than to undermine the system and the validity of his own wealth</strong>". </p>
+                  <div class="highlight">
+                    <p>Self-interest should prevent anyone with a stake in bitcoin from destroying it. </p>
+                  </div>
+                  <p>But what if bad actors have no interest in seeing bitcoin succeed? What if their whole motivation is to bring the system down, not to profit from bitcoin investments?</p>
+                  <p>This concern will become relevant only if bitcoin reaches enough penetration that its destruction would matter. And by the time this would happen, the attackers would need enormous capital to pull it off. </p>
+                </div>
+
+                <div class="subsection">
+                  <h4 class="summary__title--subtitle">Bitcoin Barons</h4>
+                  <p>Bitcoin's spectacular price rally created a small, international group of wealthy "bitcoin barons" almost overnight. They have a great interest in seeing the currency succeed and are both willing and able to make payments that others might not, simply to encourage adoption.</p>
+                  <p>Their intentions may be good, but if money is no object in their spending sprees, how can they apply the competitive discipline needed to drive prices lower for the rest of the bitcoin economy?</p>
+                  <div class="highlight">
+                    <p>The wide wealth gap of the bitcoin barons sits poorly with the image of cryptocurrencies as community-driven money and an escape to the dominance of Wall Street. <strong>Narrowly controlled wealth and power don't attract trust</strong>.</p>
+                  </div>
+                  <p>Fiat currencies have these kind of imbalances but they don't have to win people over. For cryptocurrencies, these kinds of situations may need to be revised if their future is to be assured. </p>
+                </div>
+
+                <div class="subsection">
+                  <h4 class="summary__title--subtitle">Altcoins</h4>
+                  <p><strong>The 51% attack threat is the one irrefutable structural weakness in the bitcoin system</strong>. All the other dangers mentioned so far (hacked wallets, crime, price volatility) aren't problems with bitcoin itself but with the ecosystem that developed around it. </p>
+                  <p><strong>A solution to this has been innovation through altcoins</strong>. Bitcoin's fully open-source, collaborative approach makes it possible. </p>
+                  <p>Some altcoins use "proof of stake" as an alternative to the "proof of work" paradigm's wasteful and costly computing. This way, your computer's rights to rewards for confirming transactions increase the more you are invested in the coin's monetary supply. </p>
+                  <p>With this model, your chances of winning the lottery to seal off a block depend not on your hashing power but on how many proven coins you own. The idea is that this removes the incentive to build up environmentally destructive and wasteful computing power. </p>
+                </div>
+
+                <div class="summary__navigation">
+                  <a href="chapter5.html" class="btn btn--previous">Previous Chapter</a>
+                  <a href="#" class="btn btn--next">Next Chapter</a>  
+                </div>
+
+                <a href="../age_cryptocurrency.html" class="btn">Back to Index</a>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    </main>
+    
+    <!-- Scripts Bootstrap -->
+    <script src="../../../js/jquery-3.5.1.slim.min.js"></script>
+    <script src="../../../js/popper.min.js"></script>
+    <script src="../../../js/bootstrap.min.js"></script>
+</body>
+</html>
