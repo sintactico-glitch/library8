@@ -1,0 +1,57 @@
+THE EVERYTHING BLOCKCHAIN 
+The Age of Cryptocurrency
+Paul Vigna
+
+There's a huge potential to build projects ON TOP OF bitcoin. Bitcoin 2.0 applications: products, services, and even companies that are run autonomously by a centralized cryptocurrency network.
+
+If two parties could now securely exchange funds without a trusted third party charging them fees, then this new tamperproof record of verified information could also be used for other "trustess" exchanges:
+- Contracts could be drawn up and executed without laywers or courts getting involved.
+- Digitized property deeds could be transferred and verified by the blockchain without real estate agents. 
+- Financial securities could be traded directly between investors, bypassing a central exchange. 
+
+BITCOIN 2.0 
+
+Smart contracts: the idea is that the blockchain can replace the legal system, the ultimate trusted third party. Instead of having a law firm draft a written agreement to be enforced by a judge, if one party fails to meet its obligations, the execution of those obligations is automated by software, with the criteria for doing so verified by the decentralized blockchain. 
+
+- One useful use for smart contract would be in finance. 
+- It could also be paired with "smart property", where deeds, titles and certifications of ownership are put in digital form and allow the automatic transfer of ownership of a physical asset (a hoce, a car, a patent, etc). And the software would initiate the transfer when contractual obligations are met. 
+
+    Blockchain 2.0 "coins" (like Ethereum) are probably better thought of as digital vessels in which embedded information can be passed around the blockchain rather than as currencies. They're the vehicles through which smart contracts are implemented and digital assets are exchanged, for example. 
+
+The main idea is that if we can decentralize the economy and foster multiple forms of peer-to-peer exchanges, people will figure out profitable ways to turn much of what they own or control into a marketable service. 
+
+Just as bitcoin has its own core protocol, these projects also come with their own foundational protocols. That makes them a second-layer plataform, one that a third layer of services and applications can be built upon. These Bitcoin 2.0 providers' plataforms allow their customers to access the power of the underlying, decentralized bitcoin blockchain to do different things than merely trading bitcoins (smart contracts, smart property deals, digital asset exchanges, etc).
+
+Other blockchain 2.0 projects have a different phylosophy. They don't want to force the bitcoin protocol to do things it wasn't designed to do. They felt it was better to build an entire new network, a whole new blockchain. This allowed them to rethink the network's incentive system, tweaking it so that computer nodes would be encouraged to confirm transactions taht are designed to have vast amounts of additional information embedded in them. 
+
+    If Satoshi Nakamoto had described bitcoin as a kind of a company that runs a payment system and whose ownership shares also that system's currency, people would better comprehend both the original project and the blockchain 2.0 projects coming. 
+    Instead they wrongly fixate on bitcoin as money, rather than simply as a form of money. People don't understand money. Even the experts don't agree on it. 
+
+ETHEREUM 
+
+Ethereum: a fully versatile, decentralized blockchain that could function as an open plataform on which all manner of contracts and decentralized applications could be installed. 
+
+"We're hoping to be like the Android of cryptocurrency", says Ethereum creator Vitalik Buterin. "On Android you can install Google Maps, you can install Gmail, you can install whatever you want. That's where we want cryptocurrency to go. Ethereum provides the base layer, and if you want to install a wallet, there's an app for that. If you want to install a block explorer, you can design one, or a payment solution or whatever". 
+
+RIPPLE
+
+Like the other bitcoin 2.0 project, Ripple has its own internal currency (XRP) which functions as a vessel for transferring information and as a store of value for participants and inverstors in the network. But the system differs from just about every other cryptocurrency in that its network for confirming transaction doesn't depend upon currency rewards or transaction fees as incentives. 
+
+The ledger of transactions is typically confirmed by the same gateway institutions that use it and the creators of digital assets and contracts that trade over the Ripple network. Banks, remittance services, money transmitters, exchange house, all are expected to freely contribute computing resources to the network. They're motivated to do so purely by a common interest in having the system function well. 
+
+Ripple is as much about cutting out middlemen as narrowing foreign-exchange spreads. Customers can go to one of the gateway institutions and request to send money (or other digitized assets) to someone else, who receives the payment in their currency of choice from a reciprocal gateway anywhere else. 
+
+The gateways don't deliver physical currency to each other. They build up a ledger of tradable IOUs. The Ripple network will be able to trade fiat-currency denominated IOU tokes against one another, creating de facto exchange rates. 
+
+TRANSITION PERIOD
+
+Developers might be getting ahead of themselves technologically with these projects. If bitcoin's blockchain ends up as the default protocol for these new applications, it's going to need some serious upgrading. 
+
+- The current limit of 7 transactions a second would have to be raised significantly if the system is to be expanded to include all these other value exchanges in addition to bitcoin payments. 
+- Some also worry that miners will be disincentivized to confirm transactions if they're embedded with contracts for high value property. The idea being that the miners' compensation won't match up to the value contained in the block. 
+- There's also problems with fees that bitcoin imposes on the smallest transaction, which make it prohibitively expensive to develop certain blockchain 2.0 applications with large amounts of individual data exchanges of low or no monetary value (like blockchain based voting or encrypted messaging).
+
+For example, in regular contracts it could happen that based on certain circunstances, creditor would choose to cut some slack to people that are falling behind on payments. This wouldn't be possible with smart contracts and people would feel uncomfortable removing human interaction in these cases. A hybrid model that combines blockchain smart contracts and off-line arbitration would be much better received. 
+
+Satoshi set off a decentralization movement that's now clashing with a preexisting system of businesses and law that it seeks to disrupt, giving rise to tension within wider society but also within cryptocurrency communities themselves.
+
