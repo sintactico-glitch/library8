@@ -445,6 +445,11 @@ main {
   background-position: left;
 }
 
+/*  Hero Img for Reading List */
+#reading_list {
+  background-image: url(../img/hero/hero_reading_list.jpg);
+}
+
 *,
 *:before,
 *:after {
