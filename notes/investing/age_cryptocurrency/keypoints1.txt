@@ -1,5 +1,4 @@
-Cryptocurrencies are built around the principle of a universal, inviolable ledger (blockchain) that is made fully public and is constantly being verified by these high-powered computers, each essentially acting independently of the others.
-That means we don't need banks and other financial intermediaries to form bonds of trust on our behalf.
+Cryptocurrencies are built around the principle of a universal, inviolable ledger (blockchain) that is made fully public and is constantly being verified by these high-powered computers, each essentially acting independently of the others. That means we don't need banks and other financial intermediaries to form bonds of trust on our behalf.
 
 This technology is a form of social organization that promises to shift the control of money and information away from the powerful elites and deliver it to the people to whom it belongs, putting them back in charge of their assets and talents.
 
@@ -29,7 +28,6 @@ Trust is the most important element of capital markets:
     Trust that market prices really did reflect all available information at the time.
     Trust that if an asset was represented on the balance sheet as being worth X amount of dollars, it actually was worth X amount of dollars.
 
-
 Nakamoto came up with a twofold solution:
 
 Blockchain Ledger. With this design, transactions are arrenged in chronologically arrayed blocks that give miners the ability to verify their contents by comparing them to the historical ledger of account balances. Once satisfied, they acknowledge their approval by moving on to create the next block and chaining it to the now-approved predecessor.
@@ -41,7 +39,6 @@ Mining Reward Algorithm. This created the exact incentives needed to get the own
 "Mining" is probably not the best word since what the computers that "mine" Bitcoin do is confirm transactions. The "mined" Bitcoin are a reward for being the first miner to solve a randomly generated, mathematically complex puzzle that must be completed before transactions can be confirmed. This reward gets increasingly difficult to attain as miners add more computational power to the network.
 
 A currency must exhibit price stability if it's to function as a medium of exchange, in addition to proving itself a reliable store of value and an accepted unit of account. Bitcoin is a volatile asset that is much better viewed as a commodity than as a currency. 
-
 
 Until now, monetary systems have been built on centralized ledger-keeping, whether by banks or by central banks operating as economy-wide ledgers. The problem with this model is that it confers too much power and excessive profit to those central record-keepers.
 
