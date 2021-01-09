@@ -1,0 +1,61 @@
+Until now, monetary systems have been built on centralized ledger-keeping, whether by banks or by central banks operating as economy-wide ledgers. The problem with this model is that it confers too much power and excessive profit to those central record-keepers.
+
+To create a less centralized system you had to:
+
+- Figure out a way to assign the shared record-keeping task to a group of individuals/institutions connected to a network, and give them some incentive to perform those tasks.
+- Ensure that their common ledger has no way for one of the record-keepers to tamper with it and introduce errors that others wouldn't notice.
+- Imbue the whole group with a sense of trust in its own rules, a trust that acts as a barrier to bad behavior.
+
+The internet solved the problem of creating a network of instant universal communication. Bitcoin handled the other two challenges.
+
+WHAT IS MONEY
+
+Money as a social technology. Currency is not itself money. Money is the system of credit accounts and their clearing that currency represents. 
+
+For a currency to become money it must function as:
+- a medium of exchange
+- a unit of account
+- a store of value
+
+What matters most is whether that currency has utility. Does it enhance our ability to engage in exchange, commerce and human interaction?
+
+Bitcoin has something to offer: a remarkable capacity to facilitate low-cost, near-instant transfer of value anywhere in the world.
+
+For any currency to be viable, it must win the trust of the community using it. Trust is at the core of any system of money.
+
+A currency must exhibit price stability if it's to function as a medium of exchange, in addition to proving itself a reliable store of value and an accepted unit of account. Bitcoin is a volatile asset that is much better viewed as a commodity than as a currency. 
+
+HOW BITCOIN WORKS
+
+In October 31 2008, Satoshi Nakamoto released his paper on Bitcoin: a system of online exchange that uses encryption to allow two parties to exchange tokens of value without divulging vulnerable information about themselves or their financial accounts. A form of digital cash intended to operate outside the traditional banking structure.
+
+- Blockchain Ledger. With this design, transactions are arrenged in chronologically arrayed blocks that give miners the ability to verify their contents by comparing them to the historical ledger of account balances. Once satisfied, they acknowledge their approval by moving on to create the next block and chaining it to the now-approved predecessor.
+
+This verification and chaining of blocks, and the acceptance of each new one as the legitimate base on which to build future blocks, constitutes a consensus on the validity of the underlying transactions.
+
+- Mining Reward Algorithm. This created the exact incentives needed to get the owners of the networked computers to commit the electricity and computing resources needed so that their machines would help maintain the blockchain ledger.
+
+"Mining" is probably not the best word since what the computers that "mine" Bitcoin do is confirm transactions. The "mined" Bitcoin are a reward for being the first miner to solve a randomly generated, mathematically complex puzzle that must be completed before transactions can be confirmed. This reward gets increasingly difficult to attain as miners add more computational power to the network.
+
+The amount of work (the computing equivalent of man-hours) give legitimacy to the ledger, since it represents a significant collective investment in assuring its integrity.
+
+A key element of the blockchain is that it halves bitcoin issuance every roughly 4 years. This creates a sense of scarcity over should support bitcoin's value. But new bitcoins aren't the only way that miners get compensated. The core software also has the ability to charge transaction fees, paid by the sender.
+
+THE 51% ATTACK 
+
+Nakatomo's original paper stated that the bitcoin mining network could be guaranteed to treat everyone's transactions fairly and honestly so long as no single miner or mining group owned more than 50% of the hashing power.
+
+What if a powerful conglomerate took control of all that mining power? They could then fill a block with fraudulent transactions and then (equally fraudulently) confirm them. And since they'd be winning more than every second block, they could continue to build a viable, lenghty blockchain that other miners would assume to be the truthfull one, all by virtue of its length.
+
+Self-interest should prevent anyone with a stake in bitcoin from destroying it. 
+
+The 51% attack threat is the one irrefutable structural weakness in the bitcoin system. All the other dangers mentioned so far (hacked wallets, crime, price volatility) aren't problems with bitcoin itself but with the ecosystem that developed around it.
+
+A solution to this has been innovation through altcoins. Bitcoin's fully open-source, collaborative approach makes it possible. 
+
+Some altcoins use "proof of stake" as an alternative to the "proof of work" paradigm's wasteful and costly computing. This way, your computer's rights to rewards for confirming transactions increase the more you are invested in the coin's monetary supply. 
+
+There's a huge potential to build projects on top of bitcoin. Bitcoin 2.0 applications: products, services, and even companies that are run autonomously by a centralized cryptocurrency network.
+
+The main idea is that if we can decentralize the economy and foster multiple forms of peer-to-peer exchanges, people will figure out profitable ways to turn much of what they own or control into a marketable service. 
+
