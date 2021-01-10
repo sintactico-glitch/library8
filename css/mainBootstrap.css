@@ -411,6 +411,10 @@ main {
   padding-left: 0;
 }
 
+.table {
+  margin: 2.5rem 0;
+}
+
 /*  Sections on index.html  */
 #awareness {
   background-image: url(../img/hero/hero_awareness.jpg);
