@@ -194,7 +194,7 @@
     &__actionable-steps {
         padding: 0;
 
-        &__header {
+        &--header {
             font-family: $font-title;
             font-size: $size4;
             background-color: $dark-gray;
@@ -401,3 +401,4 @@ main {
         padding-left: 0;   
     }
 }
+

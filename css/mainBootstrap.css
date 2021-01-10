@@ -211,7 +211,7 @@
   padding: 0;
 }
 
-.card__actionable-steps__header {
+.card__actionable-steps--header {
   font-family: "Fjalla One", sans-serif;
   font-size: 1.5rem;
   background-color: #C4CBCA;
