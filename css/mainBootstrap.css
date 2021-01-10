@@ -439,6 +439,11 @@ main {
   background-image: url(../img/hero/hero_men_explain.jpg);
 }
 
+#love_languages {
+  background-image: url(../img/hero/hero_love_languages.jpg);
+  background-position: left;
+}
+
 /*  Hero Img for Web Development */
 #biblia_bootstrap {
   background-image: url(../img/hero/hero_biblia_bootstrap.jpg);
