@@ -191,6 +191,22 @@
             of the amount of text   */
     }
 
+    &__actionable-steps {
+        padding: 0;
+
+        &__header {
+            font-family: $font-title;
+            font-size: $size4;
+            background-color: $dark-gray;
+            text-transform: uppercase;
+        }
+
+        &:hover,
+        &:focus {
+            box-shadow: none;
+        }
+
+    }
 }
 
 /*  Index   */
