@@ -216,6 +216,7 @@
   font-size: 1.5rem;
   background-color: #C4CBCA;
   text-transform: uppercase;
+  border-bottom: none;
 }
 
 .card__actionable-steps:hover, .card__actionable-steps:focus {
