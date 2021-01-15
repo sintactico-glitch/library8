@@ -531,4 +531,8 @@ strong {
 label {
   display: inline;
 }
+
+.completed {
+  text-decoration: line-through;
+}
 /*# sourceMappingURL=mainBootstrap.css.map */
