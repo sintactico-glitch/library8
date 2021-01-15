@@ -408,6 +408,7 @@ main {
 
 .reading-list {
   background-color: #E01541;
+  color: #ffffff;
   padding: 0.5rem 1rem;
   font-family: "Fjalla One", sans-serif;
   text-transform: uppercase;
@@ -416,7 +417,7 @@ main {
 
 .reading-list:hover, .reading-list:focus {
   background-color: #0A0F0D;
-  color: #E01541;
+  color: #ffffff;
 }
 
 .reading-list p {

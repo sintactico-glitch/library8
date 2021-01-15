@@ -401,6 +401,7 @@ main {
 // Reading List
 .reading-list {
     background-color: $primary;
+    color: $white;
     padding: 0.5rem 1rem;
     font-family: $font-title;
     text-transform: uppercase;
@@ -409,12 +410,13 @@ main {
     &:hover,
     &:focus {
         background-color: $black;
-        color: $primary;
+        color: $white;
     }
     
     p {
         margin-bottom: 0;
         font-size: $size4;
+
     }
 
     a {
