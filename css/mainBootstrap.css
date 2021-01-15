@@ -527,4 +527,8 @@ h6 {
 strong {
   font-weight: 700;
 }
+
+label {
+  display: inline;
+}
 /*# sourceMappingURL=mainBootstrap.css.map */
