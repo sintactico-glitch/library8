@@ -1,14 +1,4 @@
 @charset "UTF-8";
-/*  
-    Index
-    Hero
-    Summary
-    Card
-    Navbar
-    Button
-    Category
-    Main
-*/
 /*  Hero    */
 .hero {
   height: 95vh;
@@ -414,6 +404,29 @@ main {
 
 .table {
   margin: 2.5rem 0;
+}
+
+.reading-list {
+  background-color: #E01541;
+  padding: 0.5rem 1rem;
+  font-family: "Fjalla One", sans-serif;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.reading-list:hover, .reading-list:focus {
+  background-color: #0A0F0D;
+  color: #E01541;
+}
+
+.reading-list p {
+  margin-bottom: 0;
+  font-size: 1.5rem;
+}
+
+.reading-list a {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 /*  Sections on index.html  */
