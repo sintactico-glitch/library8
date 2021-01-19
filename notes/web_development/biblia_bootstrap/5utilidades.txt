@@ -1,0 +1,47 @@
+CLASES UTILIDADES
+La biblia de Bootstrap 4
+Erick Mines
+
+Las clases de utilidades nacen para solucionar requerimientos frequentes cuando estamos maquetando un sitio web. Por ejemplo, clases para bordes o colores de texto.
+La idea de Bootstrap es que escribas la menor cantidad posible de código CSS y que uses las clases que están proporcionando. 
+
+BORDES
+.border (aplica a las 4 direcciones)
+.border-top
+.border-right
+.border-bottom
+.border-left
+
+Si el elemento ya tiene un border o está heredando un border y queremos sacarlo usamos la clase .border-0
+
+Para cambiar color de los border podemos usar las clases:
+.border-primary
+.border-secondary
+.border-success 
+.border-danger
+.border-warning
+.border-info
+
+.border-dark (borde completamente negro)
+.border-white (borde blanco)
+.border-light (borde gris claro)
+
+BORDES AVANZADOS
+Con la clase .rounded podemos agregar bordes redondeados. No se puede cambiar el grosor del borde redondeado, que es de 0.25rem
+Si lo que queremos hacer es eliminar un borde redondeado podemos usar la clase .rounded-0
+También puede pasar que no queramos aplicar un borde redondeado a las 4 esquinas del elemento. Para eso se usan:
+.rounded-top
+.rounded-right
+.rounded-bottom
+.rounded-left
+
+SOMBRAS
+Para agregar sombras se usan las clase:
+.shadow
+.shadow-sm 
+.shadow-lg
+
+IMÁGENES
+Cuando agregamos una imagen, por default ocupa su tamaño original. Usando la clase .img-fluid la imagen no va a exceder el tamaño de su contenedor. 
+Con la clase .img-thumbnail creamos un borde redondeado a la imagen, algo muy usado en galerías de imágenes.
+La clase .rounded-circle permite hacer imágenes circulares. Es recomendable usar imágenes que tengan el mismo ancho y alto. 
