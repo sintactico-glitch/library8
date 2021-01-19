@@ -2,7 +2,7 @@ PROPIEDAD DISPLAY
 La Biblia de Bootstrap 4
 Erick Mines
 
-La propiedad display establece el tipo de caja para un elemento html. Los valores más usados de esta propiedad son inline, block, inline-block y none
+La propiedad display establece el tipo de caja para un elemento html. Los valores más usados de esta propiedad son inline, block, inline-block y none.
 
 -   display: none
     Hace que un elemento desaparezca visualmente de la pantalla. Con esta propiedad, un elemento desaparece, los elementos que tiene alrededor asumen que no existe y toman su lugar 
