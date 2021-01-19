@@ -1,0 +1,23 @@
+PROPIEDAD DISPLAY
+La Biblia de Bootstrap 4
+Erick Mines
+
+La propiedad display establece el tipo de caja para un elemento html. Los valores más usados de esta propiedad son inline, block, inline-block y none
+
+-   display: none
+    Hace que un elemento desaparezca visualmente de la pantalla. Con esta propiedad, un elemento desaparece, los elementos que tiene alrededor asumen que no existe y toman su lugar 
+    El elemento solo desaparece de la pantalla, sigue estándo en el código 
+
+-   display: block
+    Los elementos en bloque siempre van a ocupar todo el espacio disponible de su padre. No se muestra una al costado de la otra, sino que siempre se van a mostrar una abajo de la otra (la excepción es si le asignamos un width fijo). 
+    A los elementos de bloque si les podemos asignar una anchura y altura específica
+
+-   display: inline
+    Estos no comienzan en una nueva línea y su caja solo ocupa el espacio necesario para buscar su contenido (a, span, strong, img)    
+    No soportan el uso de width y height definidos
+
+    La propiedad display permite cambiar el comportamiento de una etiqueta. Por ejemplo, podemos cambiar el comportamiento de una etiqueta de bloque (como p) al de una etiqueta en línea 
+    Es frequente encontrar sitios donde los enlaces se convierten en elementos en bloque. Por ejemplo, tener una img dentro de un enlace. Usando display block se le puede dar width y height a la img. 
+
+-   display: inline-block
+    Se usa cuando queremos tener elementos en línea (uno al lado del otro) y que soporte las propiedades  width y height. 
