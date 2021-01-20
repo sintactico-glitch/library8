@@ -4,7 +4,7 @@ Erick Mines
 
 La propiedad display establece el tipo de caja para un elemento html. Los valores más usados de esta propiedad son inline, block, inline-block y none.
 
--   display: none
+-   display: none 
     Hace que un elemento desaparezca visualmente de la pantalla. Con esta propiedad, un elemento desaparece, los elementos que tiene alrededor asumen que no existe y toman su lugar 
     El elemento solo desaparece de la pantalla, sigue estándo en el código 
 
@@ -21,3 +21,31 @@ La propiedad display establece el tipo de caja para un elemento html. Los valore
 
 -   display: inline-block
     Se usa cuando queremos tener elementos en línea (uno al lado del otro) y que soporte las propiedades  width y height. 
+
+-   display: flex
+    Su comportamiento es idéntico a los elementos en bloque: ocupan todo el espacio disponible, se les puede asignar width y height. Pero la diferencia es que crean un entorno flexible que permite ordenar y manipular a sus hijos.
+
+-   display: inline-flex
+    Este valor es idéntico a los elementos inline, con la única diferencia que creamos un entorno flexible. Este valor es mucho menos usado que display: flex. 
+
+- .d-none
+- .d-block
+- .d-inline
+- .d-inline-block
+- .d-flex
+- .d-inline-flex
+
+DISPLAY RESPONSIVE
+
+También podemos modificar el display de acuerdo a los contextos, por ejemplo: 
+
+.d-none
+.d-sm-none (de sm hacia arriba va a ocultar el elemento)
+.d-md-none (esta clase se verá solo en sm y quedará oculto en todos los contexto siguientes)
+.d-lg-none
+.d-xl-none
+
+La misma estructura se usa para .d-block, .d-inline, .d-flex, etc. 
+
+
+
