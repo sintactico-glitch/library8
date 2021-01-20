@@ -1,0 +1,37 @@
+COMPONENTES
+La biblia de Bootstrap 4
+Erick Mines
+
+Componentes: son simples piezas de código que permite agregar funcionalidades a nuestro sitio web. Por ejemplo, button, navbar, slideshow, etc. Estos componentes nacen para solucionar las necesidades más frecuentes de les diseñadores web
+
+Por lo general, para implementar un componente basta con copiar el código de la documentación de Bootstrap. 
+
+BUTTON 
+
+Permite implementar botones con características flexibles. 
+Inicialmente fue pensado para usar con las etiquetas <button> e <input> para usar en formullarios. Hoy en día, se puede usar en otras etiquetas, como la etiqueta a 
+
+Los colores semánticos de los botones
+Cada color de los botones tiene significado. 
+- primary y secondary son los que se van a usar más en los diseños. Se personalizan con los colores principales del logo de la compañía. Para hacerlo, sobreescribimos la clase 
+- btn-primary indica una acción importante e incita a darle click. Tiene que destacar más para transmitir esa importancia
+- btn-secondary se usa como alternativa a la opción primaria
+- btn-sucess indica una acción positiva o exitosa, también creación de información. Se suele usar en interfaces administrativas o cuando se crea contenido
+- btn-info le indica al usuario que vamos a actualizar, modificar o ver más información.  
+- btn-warning transmite precaución. Que se va a realizar una acción potencialmente peligrosa, como restaurar sitio, por ejemplo 
+- btn-danger transmite peligro, se va a hacer una acción que tiene consecuencias. Por ejemplo, cuando se puede borrar información que no se puede recuperar 
+- Otras clases extra son btn-light, btn-dark y btn-link
+
+Botones outlines: botones con borde y sin color de fondo
+
+btn-outline-primary
+btn-lg (aumenta tamaño botón)
+btn-sm (reduce tamaño botón)
+btn-block (agrega display: block a botón)
+
+COLLAPSE
+
+Permite colapsar y mostrar un elemento
+Debe tener:
+- Elemento disparador: botón o enlace html
+- Elemento destino: elemento al que vamos a apuntar
