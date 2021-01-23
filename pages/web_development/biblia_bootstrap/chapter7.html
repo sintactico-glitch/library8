@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@400;500;600&family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="../../../img/infinity_icon.png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../../css/bootstrap.css">
+    <link rel="stylesheet" href="../../../css/mainBootstrap.css">
+    <title>Capítulo 7 - La Biblia perdida de Bootstrap 4</title>
+</head>
+<body>
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="../../../index.html">Infinite Library</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../../../index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Categories
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Awareness</a>
+                      <a class="dropdown-item" href="../../investing.html">Investing</a>
+                      <a class="dropdown-item" href="../../studies.html">Studies</a>
+                      <a class="dropdown-item active" href="../../web_development.html">Web Development <span class="sr-only">(current)</span></a>
+                      <a class="dropdown-item" href="#">Worldbuilding</a>
+                    </div>
+                  </li>
+            </ul>
+            </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero" id="biblia_bootstrap">
+      <div class="hero__container container">
+          <div class="row">
+              <div class="col-md-5 hero__container">
+                  <h1 class="hero__title">La Biblia perdida de Bootstrap 4</h1>
+                  <p class="hero__text">Erick Mines</p>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <main>
+      <section class="summary">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-10 offset-lg-1">
+              <span class="anchor" id="chapter1"></span>
+              <article>
+                <h2 class="summary__title--main">Capítulo 7: Componentes</h2>
+
+                <div class="subsection">
+                  <p>Componentes: son simples piezas de código que permite agregar funcionalidades a nuestro sitio web. Por ejemplo, button, navbar, slideshow, etc. Estos componentes nacen para solucionar las necesidades más frecuentes de les diseñadores web.</p>
+                  <p>Por lo general, para implementar un componente basta con copiar el código de la documentación de Bootstrap. </p>
+                </div>
+
+                <div class="subsection"> 
+                  <h2 class="summary__title--subtitle">Button</h2>
+                  <p>Permite implementar botones con características flexibles. Inicialmente fue pensado para usar  en formularios con las etiquetas button e input. Hoy en día, se puede usar en otras etiquetas, como la etiqueta a.</p>
+                  <p>Los colores de los buttons son semánticos, es decir, cada uno tiene un significado:</p>
+                  <ul>
+                    <li class="summary__list-item">primary y secondary son los que se van a usar más en los diseños. Se personalizan con los colores principales del logo de la compañía. Para hacerlo, sobreescribimos la clase </li>
+                    <li class="summary__list-item">btn-primary indica una acción importante e incita a darle click. Tiene que destacar más para transmitir esa importancia</li>
+                    <li class="summary__list-item">btn-secondary se usa como alternativa a la opción primaria</li>
+                    <li class="summary__list-item">btn-sucess indica una acción positiva o exitosa, también creación de información. Se suele usar en interfaces administrativas o cuando se crea contenido</li>
+                    <li class="summary__list-item">btn-info le indica al usuario que vamos a actualizar, modificar o ver más información</li>
+                    <li class="summary__list-item">btn-warning transmite precaución. Que se va a realizar una acción potencialmente peligrosa, como restaurar sitio, por ejemplo </li>
+                    <li class="summary__list-item">btn-danger transmite peligro, se va a hacer una acción que tiene consecuencias. Por ejemplo, cuando se puede borrar información que no se puede recuperar </li>
+                    <li class="summary__list-item">Otras clases extra son btn-light, btn-dark y btn-link</li>
+                  </ul>
+
+                  <p>Botones outlines: botones con borde y sin color de fondo</p>
+
+                  <ul>
+                    <li class="summary__list-item">.btn-outline-primary</li>
+                    <li class="summary__list-item">.btn-lg (aumenta tamaño botón)</li>
+                    <li class="summary__list-item">.btn-sm (reduce tamaño botón)</li>
+                    <li class="summary__list-item">.btn-block (agrega display: block a botón)</li>
+                  </ul>
+                </div>
+
+                <div class="summary__navigation">
+                  <a href="chapter6.html" class="btn btn--previous">Previous Chapter</a>
+                </div>
+
+                <a href="../biblia_bootstrap.html" class="btn">Back to Index</a>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    </main>
+    
+    <!-- Scripts Bootstrap -->
+    <script src="../../../js/jquery-3.5.1.slim.min.js"></script>
+    <script src="../../../js/popper.min.js"></script>
+    <script src="../../../js/bootstrap.min.js"></script>
+</body>
+</html>
