@@ -3,7 +3,6 @@
 .hero {
   height: 95vh;
   padding: 2em 0;
-  max-width: 600px;
   /*  
       el padding hace que en mobile el texto
       quede muy centrado, agregar clases de 
@@ -20,6 +19,9 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  /* El span pone el fondo de color y así 
+    puedo tener que el fondo se mantenga en todo
+    el texto sin depender de las col */
 }
 
 .hero__container {
@@ -36,7 +38,6 @@
 }
 
 .hero__title, .hero__text {
-  background-color: #0A0F0D;
   color: #ffffff;
   font-family: "Fjalla One", sans-serif;
   -ms-flex-item-align: start;
@@ -47,16 +48,27 @@
   margin: 0.3em 0;
 }
 
-.hero__title {
-  font-size: 3rem;
-  padding: 0.15em 0.3em;
+.hero__title span,
+.hero__text span {
+  background-color: #0A0F0D;
   display: inline-block;
 }
 
-.hero__text {
+.hero__title span {
+  font-size: 3rem;
+  padding: 0.15em 0.3em;
+}
+
+.hero__text span {
   font-size: 1.5rem;
   padding: 0.2em 0.6em;
   margin-bottom: 3rem;
+}
+
+@media (min-width: 992px) {
+  .hero__text {
+    max-width: 45vw;
+  }
 }
 
 /*  Summary */

@@ -3,7 +3,7 @@
 .hero {
     height: 95vh;
     padding: 2em 0;
-    max-width: 600px;
+    
     /*  
       el padding hace que en mobile el texto
       quede muy centrado, agregar clases de 
@@ -26,7 +26,6 @@
 
     &__title,
     &__text {
-        background-color: $black;
         color: $white;
         font-family: $font-title;
         align-self: start;
@@ -34,18 +33,32 @@
         margin: 0.3em 0;
     }
 
-    &__title {
-        font-size: $size1;
-        padding: 0.15em 0.3em;
+    /* El span pone el fondo de color y así 
+    puedo tener que el fondo se mantenga en todo
+    el texto sin depender de las col */
+
+    &__title span,
+    &__text span {
+        background-color: $black;
         display: inline-block;
     }
 
-    &__text {
+    &__title span {
+        font-size: $size1;
+        padding: 0.15em 0.3em;
+    }
+
+    &__text span {
         font-size: $size4;
         padding: 0.2em 0.6em;
         margin-bottom: 3rem;
     }
+}
 
+@media (min-width: 992px) {
+    .hero__text {
+        max-width: 45vw;
+    }
 }
 
 
