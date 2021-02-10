@@ -24,13 +24,21 @@
         justify-content: center;
     }
 
+    &__title {
+        margin: 1em 0;
+    }
+
+    &__text {
+        margin: 1.5em 0;
+    }
+
     &__title,
     &__text {
         color: $white;
         font-family: $font-title;
         align-self: start;
         justify-self: center;
-        margin: 0.3em 0;
+        text-align: left;
     }
 
     /* El span pone el fondo de color y así 
@@ -40,12 +48,18 @@
     &__title span,
     &__text span {
         background-color: $black;
-        display: inline-block;
+        line-height: 1.3;
+        box-decoration-break: clone;
     }
 
+    /*  box-decoration-break en el span junto con 
+        text-align en el title/text hacen que el 
+        fondo se pegue al contenido del texto
+     */
+
     &__title span {
-        font-size: $size1;
-        padding: 0.15em 0.3em;
+        font-size: $size1;   
+        padding: 0.15em 0.2em;
     }
 
     &__text span {

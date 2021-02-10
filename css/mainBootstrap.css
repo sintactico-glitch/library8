@@ -22,6 +22,10 @@
   /* El span pone el fondo de color y así 
     puedo tener que el fondo se mantenga en todo
     el texto sin depender de las col */
+  /*  box-decoration-break en el span junto con 
+        text-align en el title/text hacen que el 
+        fondo se pegue al contenido del texto
+     */
 }
 
 .hero__container {
@@ -37,6 +41,14 @@
           justify-content: center;
 }
 
+.hero__title {
+  margin: 1em 0;
+}
+
+.hero__text {
+  margin: 1.5em 0;
+}
+
 .hero__title, .hero__text {
   color: #ffffff;
   font-family: "Fjalla One", sans-serif;
@@ -45,18 +57,20 @@
       align-self: start;
   -ms-grid-column-align: center;
       justify-self: center;
-  margin: 0.3em 0;
+  text-align: left;
 }
 
 .hero__title span,
 .hero__text span {
   background-color: #0A0F0D;
-  display: inline-block;
+  line-height: 1.3;
+  -webkit-box-decoration-break: clone;
+          box-decoration-break: clone;
 }
 
 .hero__title span {
   font-size: 3rem;
-  padding: 0.15em 0.3em;
+  padding: 0.15em 0.2em;
 }
 
 .hero__text span {
