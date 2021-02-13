@@ -1,0 +1,32 @@
+GETTING STARTED WITH TECHNICAL ANALYSIS
+Jack D. Schwager
+
+- CHAPTER 3: TRENDS 
+
+Uptrend: a sucession of higher highs and higher lows. An uptrend can be considered intact until a previous relative low point is broken.
+Downtrend: a sucession of lower lows and lower highs. Same as with uptrends, a downtrend can be considered intact until a previous relative high is exceeded. 
+
+Uptrends and downtrends are often defined in terms of trend lines. An uptrend line connects a series of higher lows, and a downtrend line connects a series of lower highs.
+
+IMG getting_started1_uptrend
+IMG getting_started2_downtrend
+
+    Trend lines tend to be penetrated repeatedly during their evolution. They have to be frequently redefined as they extend.
+    Trend lines work much better in hindsight than in real time since trend line penetrations often prove to be false signals. 
+
+DRAWING TREND LINES
+
+Two highs or lows are the minimum to draw a trend line, but the significance of the trend line rises proportionally to the number of high or lows it connects. 
+
+Thomas DeMark method for drawing trend lines: 
+- Uptrends: the most recent relative low and the most recent preceding relative lower relative low
+- Downtrends: the most recent relative high and the most recent preceding higher relative high
+With this method, trend lines are continually redefined as new relative highs and lows occur. This emphasizes the importance of recent prices over historical prices.
+
+INTERNAL TREND LINES
+
+An internal trend line is drawn to best approximate the majority of relative highs or relative lows, without any special consideration to extreme points. 
+The main downside of internal trend lines is that they're unavoidably arbitrary, more than conventional trend lines that are based on extreme highs or lows. However, internal trend lines tend to be much more useful than conventional trend lines in defining areas of support or resistance.
+
+IMG getting_started3_internal1
+IMG getting_started4_internal2
