@@ -121,7 +121,13 @@
         width: 80%;
         margin: 1.5em auto;
         display: flex;
+        flex-direction: column;
         justify-content: center;
+
+        &--caption {
+            font-size: $size6;
+            align-self: center;
+        }
     }
 }
 
