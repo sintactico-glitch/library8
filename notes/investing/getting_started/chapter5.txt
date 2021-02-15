@@ -1,0 +1,40 @@
+GETTING STARTED WITH TECHNICAL ANALYSIS
+Jack D. Schwager
+
+- CHAPTER 5: CHART PATTERNS 
+
+GAPS 
+
+1. Common gap: usually occurs withing a trading range and isn't particularly significant.
+2. Breakaway gap: occurs when prices go beyond a trading range. A breakaway gap that isn't fulled within a few days is one of the most significant and reliable chart signals.
+3. Runaway gap: occurs when a trend accelerates and is a characteristic of strong bull or bear markets.
+4. Exhaustion gap: occurs after an extended price move and is soon followed by a trend reversal. The difference between and exhaustion gap and a runaway gap is hindsight. 
+
+IMG gettin_started05_gaps1
+IMG gettin_started05_gaps2
+
+SPIKES 
+ 
+A spike high is a day whose high is sharply above the high of the preceding and succeeding days. Sometimes spike highs will prove to be major tops. 
+
+The significance of a spike high will be enhanced by:
+- A wide difference between the spike high and the highs of the preceding and succeeding days
+- A close near the low of the day's range
+- An important price advance preceding the spike's formation 
+
+IMG gettin_started05_spikehighandlow
+
+A spike low is a day whose low is sharly below the low of the preceding and suceeding days. Sometimes spike lows will prove to be major bottoms. 
+
+REVERSAL DAYS 
+
+- A reversal high day is a day that sees a new high in an upmove and then reverses to close below the preceding day's close. 
+- A reversal low day is a day that sees a new low in a decline and then reverses to close above the preceding day's close. 
+
+A reversal high day is generally interpreted as suggesting a buying climax and a relative high. However, reversal high days are failry common. 
+Frequently, an uptrend will witness a number of reversal highs that prove to be false signals and then fail to register a reverseal high near the actual top. Reversal days provide occasional excellent signals, but far more frequent false signals. 
+
+IMG gettin_started05_reversalday
+
+
+
