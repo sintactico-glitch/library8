@@ -1,0 +1,46 @@
+GETTING STARTED WITH TECHNICAL ANALYSIS
+Jack D. Schwager
+
+- CHAPTER 4: TRADING RANGES, SUPPORT AND RESISTANCE
+
+A trading range is a horizontal corridor that contains price fluctuations for an extend period. 
+
+- Markets tend to spend most of their time in trading ranges 
+- Trading ranges are very difficult to trade profitably
+- Most chart patterns (gaps, flags, etc) are relatively meaningless if they occur within a trading range
+- Trading ranges can often last for years
+
+Once a trading range is established, the upper and lower boundaries tend to define support and resistance areas. Breakouts from trading ranges can provide important trading signals.
+
+TRADING RANGE BREAKOUTS 
+
+A breakout from a trading range suggests an impending price move in the direction of the breakout
+
+IMG gettin_started04_breakout1.jpg
+IMG gettin_started04_breakout2.jpg
+
+- The longer a trading range lasts, the more potentially significant the eventual breakout
+- Breakouts from narrow ranges tend to provide more reliable trade signals
+- Confirmation of Breakout. It's very common for prices to break out of a trading range by a small amount and for a few days, and then fall back into the range. The breakout will fail unless there are solid fundamental reasons for continued buying (look at the volume)
+- The reliability of a brekout is significantly improved if prices are still beyond the range after a number of days (for example, 5 days)
+
+Traders should experiment with different confirmation conditions rather than blindly following all breakouts.
+
+SUPPORT AND RESISTANCE
+
+Once a trading range is established (1 or 2 months of sideways price movement), prices will tend to meet resistance at the upper end of the range and support at the lower end of the range.
+After prices breakout from the range, the roles of support and resistance flip. The upper end that used to be resistance is now support. 
+
+Normally, resistance will be encountered near previous major highs, and support near major lows. 
+
+    Support and resistance should be considered approximate areas, not precise points. 
+
+Similar to the case of breakouts, penetration of highs and lows should be significant in terms of price magnitude, time duration, or both, to be viewed as trading signals.
+
+- There is often a tendency for relative highs and relative lows to be concentrated in relative narrow zones. These zones imply support if current prices are higher and resistance if current prices are lower. 
+- This approach is very useful for anticipating support and resistance areas in long-term charts. 
+
+IMG gettin_started04_supportzone
+IMG gettin_started04_resistancezone
+
+
