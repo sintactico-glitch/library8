@@ -519,6 +519,7 @@ main {
 
 #refuse_choose {
   background-image: url(../img/hero/hero_refuse_choose.jpg);
+  background-position: right;
 }
 
 /*  Hero Img for Web Development */
