@@ -2,6 +2,7 @@ GETTING STARTED WITH TECHNICAL ANALYSIS
 Jack D. Schwager
 
 - CHAPTER 5: CHART PATTERNS 
+ONE DAY PATTERNS
 
 GAPS 
 
@@ -35,6 +36,28 @@ A reversal high day is generally interpreted as suggesting a buying climax and a
 Frequently, an uptrend will witness a number of reversal highs that prove to be false signals and then fail to register a reverseal high near the actual top. Reversal days provide occasional excellent signals, but far more frequent false signals. 
 
 IMG gettin_started05_reversalday
+
+THRUST DAYS
+
+- An upthrust day is a day in which the close is above the previous day's high.
+- A downthrust day is a day in which the close is below the previous day's low.
+
+A series of upthrust days (not necessarily consecutive) reflects pronounced strength. Also, a series of downthrust days reflects pronounced market weakness. 
+
+IMG gettin_started05_thrust
+
+WIDE-RANGING DAYS
+
+Wide-ranging day: a daily price bar that is significantly bigger than the days preceding it. It's a day whose volatility significantly exceeds the average volatility of recent trading days. 
+
+IMG gettin_started05_wideranging
+
+- A wide-ranging day with a strong close after an extended decline is often a signal of an upside trend reversal
+- A wide-ranging day with a weak close after a major advance in price can often signal a downside trend reversal
+
+    These huge wide-ranging days should be viewed as serious warning flags that a previous major trend has been reversed
+
+
 
 
 
