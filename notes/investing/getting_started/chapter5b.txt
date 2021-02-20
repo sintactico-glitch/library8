@@ -1,0 +1,34 @@
+GETTING STARTED WITH TECHNICAL ANALYSIS
+Jack D. Schwager
+
+- CHAPTER 5: CHART PATTERNS 
+CONTINUATION PATTERNS
+
+Continuation patterns are various types of congestion phases that happen in long-term trends. A continuation pattern is expected to be resolved by a price swing in the same direction that preceded its formation.
+
+TRIANGLES
+
+A symmetrical triangle is usually followed by a continuation of the trend that preceded it. Nonsymmetrical triangles will resolve to a trend in direction of the slope of the hypotenuse.
+
+The direction of the breakout from a triangle formation is more important than the type. 
+
+IMG gettin_started05b_simmetricaltriangle1
+IMG gettin_started05b_simmetricaltriangle2
+IMG gettin_started05b_ascendingtriangle1
+IMG gettin_started05b_ascendingtriangle2
+IMG gettin_started05b_descendingtriangle1
+IMG gettin_started05b_descendingtriangle2
+
+FLAGS AND PENNANTS
+
+Flags and pennants are narrow-band, short-duration (1 to 3 weeks) congestion phases within trends. It's called a flag when it's enclosed by parallel lines and a pennant when the lines converge. 
+Flags and pennants typically represent pauses in a major trend. Usually, they're followed by price swings in the same direction as the price swings that preceded their formation. 
+
+IMG gettin_started05b_flagspennants1
+
+A breakout from a flag or pennant can be viewed as a confirmation that the trend is continuing and a trading signal in the direction of the trend. 
+
+IMG gettin_started05b_flagspennants2
+gettin_started05b_flagspennants3
+
+
