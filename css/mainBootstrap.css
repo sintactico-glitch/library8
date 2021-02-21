@@ -522,6 +522,11 @@ main {
   background-position: right;
 }
 
+#princess_diarist {
+  background-image: url(../img/hero/hero_princess_diarist.jpg);
+  background-position: center right;
+}
+
 /*  Hero Img for Web Development */
 #biblia_bootstrap {
   background-image: url(../img/hero/hero_biblia_bootstrap.jpg);
