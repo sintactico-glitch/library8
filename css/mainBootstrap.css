@@ -565,6 +565,10 @@ img {
   display: flex;
 }
 
+.accordion {
+  margin: 1rem 0;
+}
+
 body {
   font-family: "Nunito", sans-serif;
   font-size: 1.25rem;
