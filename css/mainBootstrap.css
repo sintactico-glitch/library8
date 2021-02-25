@@ -9,13 +9,10 @@
       bootstrap para que el padding se agregue
       según el breakpoint
     */
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   /*  Styles for background imgs */
   max-width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -29,16 +26,9 @@
 }
 
 .hero__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .hero__title {
@@ -52,11 +42,8 @@
 .hero__title, .hero__text {
   color: #ffffff;
   font-family: "Fjalla One", sans-serif;
-  -ms-flex-item-align: start;
-      -ms-grid-row-align: start;
-      align-self: start;
-  -ms-grid-column-align: center;
-      justify-self: center;
+  align-self: start;
+  justify-self: center;
   text-align: left;
 }
 
@@ -64,8 +51,7 @@
 .hero__text span {
   background-color: #0A0F0D;
   line-height: 1.3;
-  -webkit-box-decoration-break: clone;
-          box-decoration-break: clone;
+  box-decoration-break: clone;
 }
 
 .hero__title span {
@@ -112,44 +98,29 @@
 
 .summary__navigation {
   margin: 1em 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 .summary__navigation .btn--previous {
-  -ms-flex-item-align: start;
-      align-self: flex-start;
+  align-self: flex-start;
 }
 
 .summary__navigation .btn--next {
-  -ms-flex-item-align: end;
-      align-self: flex-end;
+  align-self: flex-end;
 }
 
 .summary__image {
   width: 80%;
   margin: 1.5em auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .summary__image--caption {
   font-size: 0.9rem;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
 }
 
 .anchor {
@@ -191,8 +162,6 @@
 /*  Card    */
 .card {
   padding: 1.3em;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -204,8 +173,7 @@
 }
 
 .card:hover, .card:focus {
-  -webkit-box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.15), 0px 0px 9px 6px rgba(0, 0, 0, 0.12);
-          box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.15), 0px 0px 9px 6px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.15), 0px 0px 9px 6px rgba(0, 0, 0, 0.12);
 }
 
 .card__img {
@@ -248,8 +216,7 @@
 }
 
 .card__actionable-steps:hover, .card__actionable-steps:focus {
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 /*  Index   */
@@ -344,35 +311,23 @@
   font-weight: 600;
   /*  align-self stops the btn from stetching
         the full width of the container  */
-  -ms-flex-item-align: start;
-      -ms-grid-row-align: start;
-      align-self: start;
+  align-self: start;
 }
 
 .btn:hover, .btn:focus {
   background-color: #E01541;
   color: #ffffff;
   border: 2px solid #E01541;
-  -webkit-transition: -webkit-transform 0.6s cubic-bezier(0.33, 1, 0.68, 1);
-  transition: -webkit-transform 0.6s cubic-bezier(0.33, 1, 0.68, 1);
   transition: transform 0.6s cubic-bezier(0.33, 1, 0.68, 1);
-  transition: transform 0.6s cubic-bezier(0.33, 1, 0.68, 1), -webkit-transform 0.6s cubic-bezier(0.33, 1, 0.68, 1);
 }
 
 .btn--secondary {
-  -ms-flex-item-align: start;
-      align-self: flex-start;
+  align-self: flex-start;
   justify-self: space-between;
   max-width: 180px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   border: 2px solid #0A0F0D;
 }
 
@@ -527,6 +482,10 @@ main {
   background-position: center right;
 }
 
+#medea_hypothesis {
+  background-image: url(../img/hero/hero_medea_hypothesis.jpg);
+}
+
 /*  Hero Img for Web Development */
 #biblia_bootstrap {
   background-image: url(../img/hero/hero_biblia_bootstrap.jpg);
@@ -541,13 +500,11 @@ main {
 *,
 *:before,
 *:after {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-size: 18px;
 }
 
@@ -560,8 +517,6 @@ img {
 }
 
 .d-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
