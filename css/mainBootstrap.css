@@ -106,6 +106,13 @@
   word-spacing: .15em;
 }
 
+.summary__title--subtitle-secondary {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  word-spacing: .15em;
+  margin-bottom: .75em;
+}
+
 .summary__list-item {
   margin-bottom: .6em;
 }
