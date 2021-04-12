@@ -217,7 +217,7 @@
 
 .card__img {
   max-width: 350px;
-  height: 425px;
+  max-height: 425px;
   margin: 0 auto;
   margin-bottom: 1rem;
   overflow: hidden;
@@ -517,6 +517,10 @@ main {
 
 #men_explain {
   background-image: url(../img/hero/hero_men_explain.jpg);
+}
+
+#mal_educadas {
+  background-image: url(../img/hero/hero_mal_educadas.jpg);
 }
 
 #love_languages {
