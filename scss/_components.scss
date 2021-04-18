@@ -278,9 +278,7 @@
 .keypoints {
     
     &__title {
-        margin: 0 0 1rem 0;
         font-size: $size3;
-        padding: 1.5rem 0;
     }
 
     &__subtitle {
@@ -388,7 +386,7 @@
 
     &__title {
         font-size: $size2;
-        margin-bottom: 3rem;
+        margin: 0 0 1rem 0;
     }
 
     .row--main {
