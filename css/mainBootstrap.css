@@ -542,6 +542,10 @@ main {
   background-image: url(../img/hero/hero_medea_hypothesis.jpg);
 }
 
+#myth_human_supremacy {
+  background-image: url(../img/hero/hero_myth_human_supremacy.jpg);
+}
+
 /*  Hero Img for Web Development */
 #biblia_bootstrap {
   background-image: url(../img/hero/hero_biblia_bootstrap.jpg);
