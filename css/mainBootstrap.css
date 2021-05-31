@@ -303,6 +303,11 @@
   margin: 1.5rem 0;
 }
 
+.keypoints h5 {
+  margin: 0.75rem 0;
+  text-transform: uppercase;
+}
+
 /*  Navbar */
 .navbar {
   background-color: #0A0F0D;
