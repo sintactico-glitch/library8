@@ -556,6 +556,10 @@ main {
   background-position: left;
 }
 
+#eloquent_js {
+  background-image: url(../img/hero/hero_eloquent_js.jpg);
+}
+
 /*  Hero Img for Reading List */
 #reading_list {
   background-image: url(../img/hero/hero_reading_list.jpg);

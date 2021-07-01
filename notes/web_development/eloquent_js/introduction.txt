@@ -1,0 +1,34 @@
+ELOQUENT JAVASCRIPT
+Marijn Haverbeke
+
+INTRODUCTION
+
+Programming is the act of constructing a program, a set of precise instructions telling a computer what to do. Because computers are dumb, pedantic beasts, programming is fundamentally tedious and frustrating.
+
+A programming language is an artificially constructed language used to instruct computers. It's interesting that the most effective way we've found to communicate with a computer borrows so heavily from the way we communicate with each other. Like human languages, computer languages allow words and phrases to be combined in new ways, making it possible to express new concepts. 
+
+A program is many things:
+- A piece of text typed by a programmer
+- It's the directing force that makes the computer do what it does
+- It's data in the computer's memory, yet it controls the action performed on this same memory
+
+A computer is a physical machine that acts as a host for these immaterial machines called programs. Computers themselves can do only stupidly straightforward things. The reason they're so useful is that they do these things at an incredibly high speed. 
+
+    A program is a building of thought. A program can ingeniously combine an enormous number of these simple actions to do very complicated things. 
+    
+    The art of programming is the skill of controlling complexity. 
+
+To program early computers, it was necessary to set large arrays of switches in the right position or punch holes in strips of cardboard and feed them to the computer. Even writing simple programs required much cleverness and discipline. Complex ones were nearly inconceivable. 
+
+Part of the power of programming languages is that they can take care of uninteresting details for us.
+
+A good programming language helps the programmer by allowing them to talk about the actions that the computer has to perform on a higher level. It helps omit details, provides convenient building blocks (such as while and console.log), allows you to define your own bulding blocks (such as sum and range), and makes those blocks easy to compose. 
+
+WHAT IS JAVASCRIPT?
+
+JavaScript was introduced in 1995 as a way to add programs to web pages in the Netscape Navigator browser. The language has since been adopted by all other major graphical web browsers. It's made modern web applications possible and is used in traditional websites to provide various forms of interactivity and cleverness.
+
+After its adoption outside of Netscape, a standard document was written to describe the way the JavaScript language should work so that the various pieces of software that support JavaScript were actually talking about the same language. This is called the ECMAScript standard. The terms ECMAScript and JavaScript can be used interchangeably, they are 2 names for the same language. 
+
+
+
