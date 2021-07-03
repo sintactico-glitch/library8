@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@400;500;600&family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="../../../img/infinity_icon.png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../../css/bootstrap.css">
+    <link rel="stylesheet" href="../../../css/mainBootstrap.css">
+    <title>Chapter 1 - Eloquent JavaScript</title>
+</head>
+<body>
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="../../../index.html">Infinite Library</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../../../index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Categories
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Awareness</a>
+                      <a class="dropdown-item" href="../../investing.html">Investing</a>
+                      <a class="dropdown-item" href="../../studies.html">Studies</a>
+                      <a class="dropdown-item active" href="../../web_development.html">Web Development <span class="sr-only">(current)</span></a>
+                      <a class="dropdown-item" href="#">Worldbuilding</a>
+                    </div>
+                  </li>
+            </ul>
+            </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero" id="eloquent_js">
+      <div class="hero__container container">
+          <div class="row">
+              <div class="col-md-5 hero__container">
+                  <h1 class="hero__title"><span>Eloquent JavaScript</span></h1>
+                  <p class="hero__text"><span>Marijn Haverbeke</span></p>
+              </div>
+          </div>
+      </div>
+  </section>
+
+
+    <main>
+      <section class="summary">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-10 offset-lg-1">
+              <span class="anchor" id="chapter1"></span>
+              <article>
+                <h2 class="summary__title--main">Values, Type and Operators</h2>
+
+                <div class="subsection">
+                  <p>Inside the computer's world, there is only data. You can read data, modify data, create new data, but that which isn't data can't be mentioned. All this data is stored as long sequences of bits and is fundamentally alike. </p>
+                  <p><strong>Bits</strong> are any kind of two-valued things, usually described as zeros and ones. <strong>Any piece of discrete information can be reduced to a sequence of zeros and ones and thus represented by bits</strong>. </p>
+                  <p>Here are the bits that make up the number 13. Its non-zero digits stand for 8, 4, and 1, and add up to 13. </p>
+                  <div class="summary__image">
+                    <img src="../../../img/summaries/eloquent_js_bits.jpg" alt="">
+                  </div>
+                  <p>To be able to work with such quantities of bits without getting lost, we must separate them into chunks that represent pieces of information. In a JavaScript environment, those chunks are called <strong>values</strong>. Though all values are made of bits, they play different roles. <strong>Every value has a type that determines its role</strong>. Some values are numbers, some values are pieces of text, some values are functions, and so on. </p>
+                </div>  
+
+                <div class="subsection">
+                  <h3 class="summary__title--subtitle">Numbers</h3>
+                  <p>Values of the <code>number</code> type are, unsurprisingly, numeric values. The main thing to do with numbers is arithmetic. </p>
+                  <p>The arithmetic operators are <code>+</code>, <code>-</code>, <code>*</code>, <code>/</code> and <code>%</code>. Just like in mathematics, multiplication, division and module have precedence over addition and substraction. For example: (100 + 4) * 11.</p>
+                  <p>When multiple operators with the same precedence appear next to each other, as in 1 - 2 + 1, they are applied left to right: (1 - 2) + 1.</p>  
+                  <p>There are 3 special values in JavaScript that are considered numbers but don't behave like normal numbers:</p>
+                  <ul>
+                    <li class="summary__list-item">The first 2 are <code>Infinity</code> and <code>-Infinity</code></li>
+                    <li class="summary__list-item">The other is <code>NaN</code>, which stands for "not a number", even though it is a value of the number type. You'll get this value when you perform any numeric operations that don't yield a meaningful result.</li>
+                  </ul>
+                </div>
+
+                <div class="subsection">
+                  <h3 class="summary__title--subtitle">String</h3>
+                  <p><code>Strings</code> are used to represent text. They're written by enclosing their content in quotes. You can use single quotes, double quotes or backticks to mark strings.</p>
+                  <p>To put quotes inside of quotes we use a different type of quote, for example: "This is a 'quote' inside a quote."</p>
+                  <p>Whenever a backslash (&bsol;) is found inside quoted text, it indicates that the character after it has a special meaning. This is called <strong>escaping the characters</strong>. A quote that is preceded by a backlash will not end the string but be part of it. <strong>When an n character occurs after a backslash, it's interpreted as a newline</strong>. </p>
+                  <p>There are situations where you want a backslash in a string to be just a backslash, not a special code. If 2 backslashes follow each other, they will collapse together, and only one will be left in the resulting string value. This is how the string <em>"A newline character is written like "&bsol;n"."</em> can be expressed:</p>
+                  <p><code>"A newline character is written like \"\\n"."</code></p>
+                  <p>Strings, too, have to be modeled as a series of bits to be able to exist inside the computer. The way JavaScript does this is based on the Unicode standard. This standard assigns a number to virtually every character you would ever need. <strong>If we have a number for every character, a string can be described by a sequence of numbers.</strong> </p>
+                  <p>Strings can't be divided, multiplied, or substracted, but the + operator can be used on them. It doesn't add, but it <strong>concatenates</strong>, it glues 2 strings together. The following line will produce the string "concatenate":</p>
+                  <p><code>"con" + "cat" + "e" + "nate"</code></p>
+                  <p>Strings written with single or double quotes behave very much the same, the only difference is in which type of quote you need to escape inside of them. Backtick-quoted strings, usually called, <strong>template literals</strong>, can do a few more tricks. Apart from being able to span lines, they can also embed other values. </p>
+                  <p><code>`half of 100 is ${100/2}`</code></p>
+                  <p>When you write something inside <code>${}</code> in a template literal, its result will be computed, converted to a string, and included at that position. The example produces "half of 100 is 50". </p>
+                </div>
+
+                <div class="subsection">
+                  <h3 class="summary__title--subtitle">Unary Operators</h3>
+                  <p>Not all operators are symbols. Some are written words. For example, the <code>typeof</code> operator produces a string value naming the type of value you give it. </p>
+                  <pre><code>
+<!--             -->console.log(typeof 4.5);
+<!--             -->returns number
+                  </code></pre>
+                  <p>The other operators shown so far all operated on 2 values, but <code>typeof</code> takes only one. Operators that use 2 values are called <strong>binary operators</strong>, while those that take 1 are called <strong>unary operators</strong>. The minus operator can be used both as a binary operator and as a unary operator. </p>
+                </div>
+
+                <div class="subsection">
+                  <h3 class="summary__title--subtitle">Boolean Values</h3>
+                  <p>It's often useful to have a value that distinguishes between only 2 possibilities, like "yes" and "no" or "on" and "off". For this purpose, JavaScript has a boolean type, which has just 2 values (<code>true</code> and <code>false</code>), which are written as those words. </p>
+
+                  <h4 class="summary__title--subtitle-secondary">Comparison</h4>
+                  <p>One way to produce boolean values is using the <code>></code> and <code><</code> operators. They're binary operators that, when applied, result in a Boolean value that indicates whether they're true in that case. </p>
+                  <p>Strings can also be compared using these operators. The way strings are ordered is roughly alphabetic but not really what we expect to see in a dictionary: uppercase letters are always "less" than lowercase ones (<code>"Z" < "a" == true</code>). Nonalphabetic characters (! and -, for example) are also included in the ordering.</p>
+                  <p><strong>When comparing strings, JavaScript goes over the characters from left to right, comparing the Unicode codes one by one</strong>.</p>
+                  <div class="highlight">
+                    <p>There is only one value in JavaScript that is not equal to itself, and that is <code>NaN</code> ("not a number").</p>
+                    <p><code>NaN</code> is supposed to denote the result of a nonsensical computation, and as such, it isn't equal to the result of any other nonsensical computations. </p>
+                  </div>
+
+                  <h4 class="summary__title--subtitle-secondary">Logical Operators</h4>
+                  <p>JavaScript supports 3 logical operators:</p>
+                  <ul>
+                    <li class="summary__list-item">The <code>&&</code> operator represents <strong>logical and</strong>. It's a binary operator and its result is true only if both the values given to it are true.</li>
+                    <li class="summary__list-item">The <code>||</code> operator represents <strong>logical or</strong>. It produces true if either of the values given to it is true. </li>
+                    <li class="summary__list-item"><strong>Not</strong> is written as an exclamation mark (<code>!</code>). It's a unary operator that flips the value given to it (!true produces false, and !false gives true).</li>
+                  </ul>
+                  <p>The last logical operator is ternary, it operates on 3 values. It's written with a question mark and a colon:</p>
+                  <pre><code>
+<!--             -->console.log(true ? 1 : 2);
+<!--             -->returns 1 
+<!--             -->console.log(false ? 1 : 2);
+<!--             -->returns 2
+                  </code></pre>
+                  <p>The value on the left of the question mark "picks" which of the other 2 values will come out. When it's true, it chooses the middle value. When it's false, it chooses the value on the right. </p>
+                </div>
+
+                <div class="subsection">
+                  <h3 class="summary__title--subtitle">Empty values</h3>
+                  <p>There are 2 special values, written <code>null</code> and <code>undefined</code>, that are used to <strong>denote the absence of meaningful value</strong>. They are themselves values, but they carry no information.</p>
+                  <p>The difference in meaning between <code>undefined</code> and <code>null</code> is an accident of JavaScript's design. It's recommended treating them as mostly interchangeable.</p>
+                </div>
+
+                <div class="subsection">
+                  <h3 class="summary__title--subtitle">Automatic Type Conversion</h3>
+                  <div class="highlight">
+                    <p>When an operator is applied to the "wrong" type of value, JavaScript will quietly convert that value to the type it needs, using a set of rules that often aren't what you want or expect. This is called <strong>type coercion</strong>.</p>
+                  </div>
+                  <p>When something that doesn't map to a number in an obvious way (like <code>"five"</code> or <code>undefined</code>) is converted to a number, you get the value <code>NaN</code>. <strong>Further arithmetic operations on <code>NaN</code> keep producing <code>NaN</code>, so if you find yourself getting one of those in an unexpected place, look for accidental type conversions</strong>.</p>
+                  <pre><code>
+<!--             -->console.log(8 * null);
+<!--             -->returns 0
+<!--             -->console.log("5" - 1);
+<!--             -->returns 4
+<!--             -->console.log("5" + 1);
+<!--             -->returns 51
+<!--             -->console.log("five" * 2);
+<!--             -->returns NaN
+                  </code></pre>
+                  <p>When comparing values of the same type using <code>==</code>, the outcome is easy to predict: you should get true when both values are the same, except in the case of <code>NaN</code>. But when the types differ, JavaScript uses a complicated and confusing set of rules to determine what to do. In most cases, it just tries to convert one of the values to the other value's type.</p>
+                  <p>However, <strong>when <code>null</code> or <code>undefined</code> occurs on either side of the operator, it produces true only if both sides are one of <code>null</code> or <code>undefined</code></strong>. </p>
+                  <pre><code>
+<!--             -->console.log(null == undefined);
+<!--             -->returns true
+<!--             -->console.log(null == 0);
+<!--             -->returns false
+                  </code></pre>
+                  <p><strong>When you want to test whether a value has a real value instead of <code>null</code> or <code>undefined</code>, you can compare it to null with the <code>==</code> (or <code>!=</code>) operator</strong>.</p>
+                  <p>But what if you want to test whether something refers to the precise value false? Expressions like <code>0 == false</code> and <code>"" == false</code> are also true because of automatic type conversion. </p>
+                  <div class="highlight">
+                    <p>When you do not want any type conversions to happen, there are 2 additional operators: <code>===</code> or <code>!==</code>. The first tests whether a value is precisely equal to the other, and the second tests whether it's not precisely equal. So <code>"" === false</code> is false as expected. </p>
+                    <p><strong>It's recommended to use the three-character comparision operators defensively to prevent unexpected type conversions from tripping you up. </strong></p>                    
+                  </div>
+                </div>
+
+                <div class="subsection">
+                  <h3 class="summary__title--subtitle">Operator precedence</h3>
+                  <p>Of the operators seen so far, the precedence order from higher to lower is: </p>
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Order</th>
+                        <th scope="col">Operator Type</th>
+                        <th scope="col">Operator</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td scope="row">1</td>
+                        <td>logical-not</td>
+                        <td><code>!</code></td>
+                      </tr>
+                      <tr>
+                        <td scope="row">2</td>
+                        <td>typeof</td>
+                        <td><code>typeof</code></td>
+                      </tr>
+                      <tr>
+                        <td scope="row">3</td>
+                        <td>multiplication</td>
+                        <td><code>*</code></td>
+                      </tr>
+                      <tr>
+                        <td scope="row">3</td>
+                        <td>division</td>
+                        <td><code>/</code></td>
+                      </tr>
+                      <tr>
+                        <td scope="row">3</td>
+                        <td>modulus</td>
+                        <td><code>%</code></td>
+                      </tr>
+                      <tr>
+                        <td scope="row">4</td>
+                        <td>addition</td>
+                        <td><code>+</code></td>
+                      </tr>
+                      <tr>
+                        <td scope="row">4</td>
+                        <td>substraction</td>
+                        <td><code>-</code></td>
+                      </tr>
+                      <tr>
+                        <td scope="row">5</td>
+                        <td>relational</td>
+                        <td><code><</code></td>
+                      </tr>
+                      <tr>
+                        <td scope="row">5</td>
+                        <td>relational</td>
+                        <td><code><=</code></td>
+                      </tr>
+                      <tr>
+                        <td scope="row">5</td>
+                        <td>relational</td>
+                        <td><code>></code></td>
+                      </tr>
+                      <tr>
+                        <td scope="row">5</td>
+                        <td>relational</td>
+                        <td><code>>=</code></td>
+                      </tr>
+                      <tr>
+                        <td scope="row">6</td>
+                        <td>equality</td>
+                        <td><code>... == ...</code></td>
+                      </tr>
+                      <tr>
+                        <td scope="row">6</td>
+                        <td>inequality</td>
+                        <td><code>... != ...</code></td>
+                      </tr>
+                      <tr>
+                        <td scope="row">6</td>
+                        <td>strict-equality</td>
+                        <td><code>... === ...</code></td>
+                      </tr>
+                      <tr>
+                        <td scope="row">6</td>
+                        <td>strict-inequality</td>
+                        <td><code>... !== ...</code></td>
+                      </tr>
+                      <tr>
+                        <td scope="row">7</td>
+                        <td>logical-and</td>
+                        <td><code>&&</code></td>
+                      </tr>
+                      <tr>
+                        <td scope="row">8</td>
+                        <td>logical-or</td>
+                        <td><code>||</code></td>
+                      </tr>
+                      <tr>
+                        <td scope="row">9</td>
+                        <td>ternary conditional</td>
+                        <td><code>... ? ... : ...</code></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <div class="summary__navigation">
+                  <a href="intro.html" class="btn btn--previous">Previous Chapter</a>
+                  <a href="#" class="btn btn--next">Next Chapter</a>  
+                </div>
+
+                <a href="../eloquent_javascript.html" class="btn">Back to Index</a>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    </main>
+    
+    <!-- Scripts Bootstrap -->
+    <script src="../../../js/jquery-3.5.1.slim.min.js"></script>
+    <script src="../../../js/popper.min.js"></script>
+    <script src="../../../js/bootstrap.min.js"></script>
+</body>
+</html>

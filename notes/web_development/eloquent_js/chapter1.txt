@@ -1,0 +1,162 @@
+ELOQUENT JAVASCRIPT
+Marijn Haverbeke
+
+CHAPTER 1: VALUES, TYPE AND OPERATORS
+
+Inside the computer's world, there is only data. You can read data, modify data, create new data, but that which isn't data can't be mentioned. All this data is stored as long sequences of bits and is fundamentally alike. 
+
+Bits are any kind of two-valued things, usually described as zeros and ones. Any piece of discrete information can be reduced to a sequence of zeros and ones and thus represented by bits. 
+
+Here are the bits that make up the number 13. Its non-zero digits stand for 8, 4, and 1, and add up to 13. 
+
+IMG bits
+
+To be able to work with such quantities of bits without getting lost, we must separate them into chunks that represent pieces of information. In a JavaScript environment, those chunks are called values. Though all values are made of bits, they play different roles. Every value has a type that determines its role. Some values are numbers, some values are pieces of text, some values are functions, and so on. 
+
+To create a value, you must merely invoke its name. Every value has to be stored somewhere, and if you want to use a gigantic amount of them at the same time, you might run out of memory. Fortunately, this is a problem only if you need them all simultaneously. As soon as you no longer use a value, it will dissipate, leaving behind its bits to be recycled as building material for the next generation of values. 
+
+NUMBERS 
+
+Values of the number type are, unsurprisingly, numeric values. The main thing to do with numbers is arithmetic. 
+
+The arithmetic operators are +, -, *, / and %. Just like in mathematics, multiplication, division and module have precedence over addition and substraction. For example: (100 + 4) * 11
+
+When multiple operators with the same precedence appear next to each other, as in 1 - 2 + 1, they are applied left to right: (1 - 2) + 1.
+
+There are 3 special values in JavaScript that are considered numbers but don't behave like normal numbers:
+- The first 2 are Infinity and -Infinity
+- The other is NaN, which stands for "not a number", even though it is a value of the number type. You'll get this value when you perform any numeric operations that don't yield a meaningful result.
+
+STRING
+
+Strings are used to represent text. They're written by enclosing their content in quotes. You can use single quotes, double quotes or backticks to mark strings. 
+
+To put quotes inside of quotes we use a different type of quote, for example: "This is a 'quote' inside a quote."
+
+Whenever a backslash (\) is found inside quoted text, it indicates that the character after it has a special meaning. This is called escaping the characters. A quote that is preceded by a backlash will not end the string but be part of it. When an n character occurs after a backslash, it's interpreted as a newline. 
+
+There are situations where you want a backslash in a string to be just a backslash, not a special code. If 2 backslashes follow each other, they will collapse together, and only one will be left in the resulting string value. This is how the string "A newline character is written like "\n"." can be expressed:
+
+"A newline character is wrtiten like \"\\n"."
+
+Strings, too, have to be modeled as a series of bits to be able to exist inside the computer. The way JavaScript does this is based on the Unicode standard. This standard assigns a number to virtually every character you would ever need. If we have a number for every character, a string can be described by a sequence of numbers. 
+
+Strings can't be divided, multiplied, or substracted, but the + operator can be used on them. It doesn't add, but it concatenates, it glues 2 strings together. The following line will produce the string "concatenate":
+
+"con" + "cat" + "e" + "nate"
+
+Strings written with single or double quotes behave very much the same, the only difference is in which type of quote you need to escape inside of them. Backtick-quoted strings, usually called, template literals, can do a few more tricks. Apart from being able to span lines, they can also embed other values. 
+
+`half of 100 is ${100/2}`
+
+When you write something inside ${} in a template literal, its result will be computed, converted to a string, and included at that position. The example produces "half of 100 is 50". 
+
+UNARY OPERATORS
+
+Not all operators are symbols. Some are written words. For example, the typeof operator produces a string value naming the type of value you give it. 
+
+console.log(typeof 4.5)
+returns number
+
+The other operators shown so far all operated on 2 values, but type of takes only one. Operators that use 2 values are called binary operators, while those that take 1 are called unary operators. The minus operator can be used both as a binary operator and as a unary operator. 
+
+BOOLEAN VALUES
+
+It's often useful to have a value that distinguishes between only 2 possibilities, like "yes" and "no" or "on" and "off". For this purpose, JavaScript has a boolean type, which has just 2 values (true and false), which are written as those words. 
+
+- Comparison
+
+One way to produce boolean values is using the > and < operators. They're binary operators that, when applied, result in a Boolean value that indicates whether they're true in that case. 
+
+Strings can also be compared using these operators. The way strings are ordered is roughly alphabetic but not really what we expect to see in a dictionary: uppercase letters are always "less" than lowercase ones ("Z" < "a" == true). Nonalphabetic characters (! and -, for example) are also included in the ordering.
+
+When comparing strings, JavaScript goes over the characters from left to right, comparing the Unicode codes one by one.
+
+    There is only one value in JavaScript that is not equal to itself, and that is NaN ("not a number"). 
+
+    NaN is supposed to denote the result of a nonsensical computation, and as such, it isn't equal to the result of any other nonsensical computations. 
+
+- Logical Operators
+
+JavaScript supports 3 logical operators:
+
+    - The && operator represents logical and. It's a binary operator and its result is true only if both the values given to it are true. 
+
+    - The || operator represents logical or. It produces true if either of the values given to it is true. 
+
+    - Not is written as an exclamation mark (!). It's a unary operator that flips the value given to it (!true produces false, and !false gives true).
+
+The last logical operator is ternary, it operates on 3 values. It's written with a question mark and a colon:
+
+console.log(true ? 1 : 2);
+returns 1 
+
+console.log(false ? 1 : 2);
+returns 2
+
+The value on the left of the question mark "picks" which of the other 2 values will come out. When it's true, it chooses the middle value. When it's false, it chooses the value on the right. 
+
+Of the operators seen so far, the precedence order from higher to lower is: 
+
+Order       Operator type       Operator
+1           logical-not         !   
+2           typeof              typeof
+3           multiplication      *
+3           division            /
+3           modulus             %
+4           addition            +
+4           substraction        -
+5           relational          <
+5           relational          <=
+5           relational          >
+5           relational          >=
+6           equality            ... == ...
+6           inequality          ... != ...
+6           strict-equality     ... === ...
+6           strict-inequality   ... !== ...
+7           logical-and         &&
+8           logical-or          ||
+9           ternary conditional ... ? ... : ...
+
+EMPTY VALUES
+
+There are 2 special values, written null and undefined, that are used to denote the absence of meaningful value. They are themselves values, but they carry no information.
+
+The difference in meaning between undefined and null is an accident of JavaScript's design. I recommend treating them as mostly interchangeable.
+
+AUTOMATIC TYPE CONVERSION
+
+    When an operator is applied to the "wrong" type of value, JavaScript will quietly convert that value to the type it needs, using a set of rules that often aren't what you want or expect. This is called type coercion.
+
+When something that doesn't map to a number in an obvious way (like "five" or undefined) is convertid to a number, you get the value NaN. Further arithmetic operations on NaN keep producing NaN, so if you find yourself getting one of those in an unexpected place, look for accidental type conversions. 
+
+console.log(8 * null);
+returns 0
+
+console.log("5" - 1);
+returns 4
+
+console.log("5" + 1);
+returns 51
+
+console.log("five" * 2);
+returns NaN
+
+When comparing values of the same type using ==, the outcome is easy to predict: you should get true when both values are the same, except in the case of NaN. But when the types differ, JavaScript uses a complicated and confusing set of rules to determine what to do. In most cases, it just tries to convert one of the values to the other value's type.
+
+However, when null or undefined occurs on either side of the operator, it produces true only if both sides are one of null or undefined. 
+
+console.log(null == undefined);
+returns true
+
+console.log(null == 0);
+returns false
+
+When you want to test whether a value has a real value instead of null or undefined, you can compare it to null with the == (or !=) operator. 
+
+But what if you want to test whether something refers to the precise value false? Expressions like 0 == false and "" == false are also true because of automatic type conversion. 
+
+    When you do not want any type conversions to happen, there are 2 additional operators: === or !==. The first tests whether a value is precisely equal to the other, and the second tests whether it's not precisely equal. So "" === false is false as expected. 
+
+It's recommended to use the three-character comparision operators defensively to prevent unexpected type conversions from tripping you up. 
+

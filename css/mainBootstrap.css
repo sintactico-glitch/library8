@@ -633,4 +633,9 @@ label {
 p {
   line-height: 1.75;
 }
+
+code,
+pre code {
+  color: #889693;
+}
 /*# sourceMappingURL=mainBootstrap.css.map */
