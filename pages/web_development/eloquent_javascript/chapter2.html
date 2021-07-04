@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@400;500;600&family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="../../../img/infinity_icon.png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../../css/bootstrap.css">
+    <link rel="stylesheet" href="../../../css/mainBootstrap.css">
+    <title>Chapter 2 - Eloquent JavaScript</title>
+</head>
+<body>
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="../../../index.html">Infinite Library</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../../../index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Categories
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Awareness</a>
+                      <a class="dropdown-item" href="../../investing.html">Investing</a>
+                      <a class="dropdown-item" href="../../studies.html">Studies</a>
+                      <a class="dropdown-item active" href="../../web_development.html">Web Development <span class="sr-only">(current)</span></a>
+                      <a class="dropdown-item" href="#">Worldbuilding</a>
+                    </div>
+                  </li>
+            </ul>
+            </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero" id="eloquent_js">
+      <div class="hero__container container">
+          <div class="row">
+              <div class="col-md-5 hero__container">
+                  <h1 class="hero__title"><span>Eloquent JavaScript</span></h1>
+                  <p class="hero__text"><span>Marijn Haverbeke</span></p>
+              </div>
+          </div>
+      </div>
+  </section>
+
+
+    <main>
+      <section class="summary">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-10 offset-lg-1">
+              <span class="anchor" id="chapter1"></span>
+              <article>
+                <h2 class="summary__title--main">Program Structure</h2>
+
+                <div class="subsection">
+                  <h3 class="summary__title--subtitle">Expressions and Statements</h3>
+                  <p>In Chapter 1, we made values and applied operators to them to get new values. Creating values like this is the main substance of any JavaScript program. But that substance has to be framed in a larger structure to be useful. </p>
+                  <p><strong>Expression: a fragment of code that produces a value</strong>. Every value that is written literally (such as 22 or "psychoanalysis") is an expression. An expression between parenthesis is also an expression (like binary or unary operators).</p>
+                  <p>Expressions can contain other expressions in a way similar to how subsentences in human language are nested. This allows us to build expressions that describe arbitrarily complex computations.</p>
+                  <div class="highlight">
+                    <p>If an expression corresponds to a sentence fragment, a JavaScript statement corresponds to a full sentence. A program is a list of statements. </p>
+                  </div>
+                  <p>The simplest kind of statement is an expression with a semicolon after it. For example: </p>
+                  <pre><code>
+<!--                -->1;
+<!--                -->!false;
+                  </code></pre>
+                  <p><strong>A statement amounts to something only if it affects the world</strong>. It could display something on screen or it could change the internal state of the machine in a way that will affect the statements that come after it. These changes are called <strong>side effects</strong>. </p>
+                </div>  
+
+                <div class="subsection">
+                  <h3 class="summary__title--subtitle">Bindings</h3>
+                  <p>We've seen how to produce new values from old values, but this doesn't change the old values, and the new value has to be immediately used or it will dissipate again. <strong>To catch and hold values, JavaScript provides a thing called binding or variable</strong>. </p>
+                  <p><code>let caught = 5 * 5;</code></p>
+                  <p>The keyword <code>let</code> indicates that this sentence is going to define a binding. It's followed by the name of the binding and, if we want to immediately give it a value, by an = operator and an expression. </p>
+                  <p>After a binding has been defined, its name can be used as an expression. The value of such an expression is the value the binding currently holds. </p>
+                  <p><code>console.log(caught); // returns 25</code></p>
+                  <p><strong>When a binding points at a value, that doesn't mean it's tied to that value forever</strong>. The = operator can be used at any time on existing bindings to disconnect them from their current value and have them point to a new one. </p>
+                  <div class="highlight">
+                    <p>You should imagine bindings as tentacles, rather than boxes. They don't <em>contain</em> values, they <em>grasp</em> them, 2 bindings can refer to the same value. </p>
+                    <p>When you need to remember something, you grow a tentacle to hold on to it or you reattach one of your existing tentacles to it. </p>
+                    <p>When you define a binding without giving it a value, the tentacle has nothing to grasp, so it ends in thin air. If you ask for the value of an empty binding, you'll get the value undefined. </p>
+                  </div>
+                  <p>The keywords <code>var</code> and <code>const</code> can also be used to create bindings:</p>
+                  <ul>
+                    <li class="summary__list-item"><code>var</code> is the way bindings were declared in pre-2015 JavaScript. This is no longer used</li>
+                    <li class="summary__list-item"><code>const</code> stands for constant. It defines a constant binding, which points at the same value for as long as it lives
+                    </li>
+                  </ul>
+                  <p><strong>The collection of bindings and their values that exist at a given time is called the environment</strong>. When a program starts up, this environment is not empty. It always contains bindings that are part of the language standard, and most of the time, it also has bindings that provide ways to interact with the surrounding system. </p>
+                </div>
+
+                <div class="subsection">
+                  <h3 class="summary__title--subtitle">Functions</h3>
+                  <p><strong>A function is a piece of program wrapped in a value</strong>. Such values can be applied in order to run the wrapped program.</p>
+                  <p>Executing a function is called <em>invoking</em>, <em>calling</em> or <em>applying</em> it. You can call a function by putting parentheses after an expression that produces a function value. Usually you'll directly use the name of the binding that holds the function.</p>
+                  <p><strong>Values given to functions are called arguments</strong>. Different functions might need a different number of different types of arguments. </p>
+                </div>
+
+                <div class="subsection">
+                  <h3 class="summary__title--subtitle">Return Values</h3>
+                  <p><strong>Showing a dialog box or writing text to the screen is a <em>side effect</em></strong>. A lot of functions are useful because of the side effects they produce. Functions may also produce values, in which case they don't need to have a side effect to be useful.</p> 
+                  <p>When a function produces a value, it's said to <strong>return</strong> that value.</p>
+                </div>
+
+                <div class="subsection">
+                  <h3 class="summary__title--subtitle">Control Flow</h3>
+                  <p>When your program contains more than one statement, the statements are executed as if they're a story, from top to bottom. For example:</p>
+                  <pre><code>
+<!--             -->let theNumber = Number(prompt("Pick a number:"));
+<!--             -->console.log("Your number is the square root of " + theNumber * theNumber);
+                  </code></pre>
+                  <p>The function <code>Number</code> converts a value to a number. We need that conversion because the result of <code>prompt</code> is a string value, and we want a number. There are similar functions called <code>String</code> and <code>Boolean</code> that convert value to those types.</p>
+                </div>
+              
+                <div class="subsection">
+                  <h3 class="summary__title--subtitle">Conditional Execution (if statement)</h3>
+                  <p>Not all programs are straight roads. We may want to create a branching road, where the program takes the proper branch based on the situation at hand. This is called <strong>conditional execution</strong>.</p>
+                  <p>Condition execution is created with the <code>if</code> keyword in JavaScript. </p>
+                  <pre><code>
+<!--             -->let theNumber = Number(prompt("Pick a number: "));
+<!--             -->if(!Number.isNaN(theNumber)) {
+<!--                -->   console.log("Your number is the square root of " + theNumber * theNumber);
+<!--                      -->}
+                  </code></pre>
+                  <p>(The <code>Number.isNaN</code> function is a standard JavaScript function that returns <code>true</code> only if the argument it's given is <code>NaN</code>)</p>
+                  <p><strong>The <code>if</code> keyword executes or skips a statement depending on the value of a Boolean expression.</strong> The deciding expression is written after the keyword, between parentheses, followed by the statement to execute. </p>
+                  <p>The statement after the <code>if</code> is wrapped in braces ({ and }). The braces can be used to group any number of statements into a single statement, called a <em>block</em>.</p>
+                  <p>You often won't just have code that executes when a condition is true, but also code that handles the other case. We can use the <code>else</code> keyword, together with <code>if</code>, to create 2 separate, alternative execution paths.</p>
+                  <pre><code>
+<!--             -->let theNumber = Number(prompt("Pick a number: "));
+<!--             -->if(!Number.isNaN(theNumber)) {
+<!--                -->   console.log("Your number is the square root of " + theNumber * theNumber);
+<!--             -->} else {
+<!--                -->   console.log("Hey. Why didn't you give me a number?");
+<!--             -->}
+                  </code></pre>
+                  <p>If you have more than 2 paths to choose from, you can "chain" multiple <code>if/else</code> pairs together.</p>
+                  <pre><code>
+<!--             -->let num = Number(prompt("Pick a number: "));
+<!--             -->if(num < 10){
+<!--                -->   console.log("Small");
+<!--             -->} else if(num < 100){
+<!--                -->   console.log("Medium");
+<!--             -->} else {
+<!--                -->   console.log("Large");
+<!--             -->}
+                  </code></pre>
+                </div>
+
+                <div class="subsection">
+                  <h3 class="summary__title--subtitle">While and Do Loops</h3>
+                  
+                </div>
+
+                <div class="subsection">
+                  <h3 class="summary__title--subtitle">Conditional Execution</h3>
+                  
+                </div>
+
+                <div class="summary__navigation">
+                  <a href="chapter1.html" class="btn btn--previous">Previous Chapter</a>
+                  <a href="#" class="btn btn--next">Next Chapter</a>  
+                </div>
+
+                <a href="../eloquent_javascript.html" class="btn">Back to Index</a>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    </main>
+    
+    <!-- Scripts Bootstrap -->
+    <script src="../../../js/jquery-3.5.1.slim.min.js"></script>
+    <script src="../../../js/popper.min.js"></script>
+    <script src="../../../js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+ELOQUENT JAVASCRIPT
+Marijn Haverbeke
+
+CHAPTER 2: PROGRAM STRUCTURE
+
+EXPRESSIONS AND STATEMENTS
+
+In Chapter 1, we made values and applied operators to them to get new values. Creating values like this is the main substance of any JavaScript program. But that substance has to be framed in a larger structure to be useful. 
+
+Expression: a fragment of code that produces a value. Every value that is written literally (such as 22 or "psychoanalysis") is an expression. An expression between parenthesis is also an expression (like binary ot unary operators).
+
+Expressions can contain other expressions in a way similar to how subsentences in human language are nested. This allows us to build expressions that describe arbitrarily complex computations. 
+
+    If an expression corresponds to a sentence fragment, a JavaScript statement corresponds to a full sentence. A program is a list of statements. 
+
+The simplest kind of statement is an expression with a semicolon after it. For example: 
+
+1; 
+!false;
+
+A statement amounts to something only if it affects the world. It could display something on screen or it could change the internal state of the machine in a way that will affect the statements that come after it. These changes are called side effects. 
+
+BINDINGS
+
+We've seen how to produce new values from old values, but this doesn't change the old values, and the new value has to be immediately used or it will dissipate again. To catch and hold values, JavaScript provides a thing called binding or variable. 
+
+let caught = 5 * 5;
+
+The keyword let indicates that this sentence is going to define a binding. It's followed by the name of the binding and, if we want to immediately give it a value, by an = operator and an expression. 
+
+After a binding has been defined, its name can be used as an expression. The value of such an expression is the value the binding currently holds. 
+
+When a binding points at a value, that doesn't mean it's tied to that value forever. The = operator can be used at any time on existing bindings to disconnect them from their current value and have them point to a new one. 
+
+    You should imagine bindings as tentacles, rather than boxes. They don't "contain" values, they "grasp" them, 2 bindings can refer to the same value. 
+
+    When you need to remember something, you grow a tentacle to hold on to it or you reattach one of your existing tentacles to it. 
+
+    When you define a binding without giving it a value, the tentacle has nothing to grasp, so it ends in thin air. If you ask for the value of an empty binding, you'll get the value undefined. 
+
+The keywords var and const can also be used to create bindings:
+- var is the way bindings were declared in pre-2015 JavaScript. This is no longer used
+- const stands for constant. It defines a constant binding, which points at the same value for as long as it lives
+
+The collection of bindings and their values that exist at a given time is called the environment. When a program starts up, this environment is not empty. It always contains bindings that are part of the language standard, and most of the time, it also has bindings that provide ways to interact with the surrounding system. 
+
+FUNCTIONS
+
+A function is a piece of program wrapped in a value. Such values can be applied in order to run the wrapped program. 
+
+Executing a function is called invoking, calling or applying it. You can call a function by putting parentheses after an expression that produces a function value. Usually you'll directly use the name of the binding that holds the function.
+
+Values given to functions are called arguments. Different funcions might need a different number of different types of arguments. 
