@@ -164,12 +164,77 @@
 
                 <div class="subsection">
                   <h3 class="summary__title--subtitle">While and Do Loops</h3>
-                  
+                  <p>Looping control flow allows us to go back to some point in the program where we were before and repeat it with our current program state. For example, a program that outputs all even numbers from 0 to 12:</p>
+                  <pre><code>
+<!--             -->let number = 0;
+<!--             -->while (number <= 12){
+<!--                -->   console.log(number);
+<!--                -->   number = number + 2;
+<!--             -->}
+                  </code></pre>
+                  <p>A statement starting with the keyword <code>while</code> creates a loop. The word <code>while</code> is followed by an expression in parentheses and then a statement, much like <code>if</code>. <strong>The loop keeps entering that statement as long as the expression produces a value that gives <code>true</code> when converted to Boolean</strong>.</p>
+                  <p>A <code>do</code> loop is a control structure similar to a <code>while</code> loop. It's main difference is that <strong>a <code>do</code> loop always executes its body at least once, and it starts testing the condition only after that first execution</strong>. For example, a program that asks you to enter a name until it gets something that isn't an empty string.</p>
+                  <pre><code>
+<!--             -->let yourName;
+<!--             -->do {
+<!--                -->   yourName = prompt("Who are you?");
+<!--             -->} while (!yourName);
+<!--             -->console.log(yourName);
+                  </code></pre>
+                  <p><strong>Applying the <code>!</code> operator will convert a value to Boolean type before negating it</strong>, and all strings except "" convert to <code>true</code>.</p>
                 </div>
 
                 <div class="subsection">
-                  <h3 class="summary__title--subtitle">Conditional Execution</h3>
-                  
+                  <h3 class="summary__title--subtitle">For Loops</h3>
+                  <p>Let's see the example of the even-number printing loop with <code>for</code> instead of <code>while</code>:</p>
+                  <pre><code>
+<!--             -->for(let number = 0; number <= 12; number = number + 2){
+<!--                -->   console.log(number);
+<!--             -->}
+                  </code></pre>
+                  <ul>
+                    <li class="summary__list">The part before the first semicolon initializes the loop, usually by defining a binding</li>
+                    <li class="summary__list">The second part checks whether the loop must continue</li>
+                    <li class="summary__list">The final part updates the state of the loop after every iteration</li>
+                  </ul>
+                  <p>In most cases, this is shorter and clearer than a <code>while</code> loop.</p>
+                </div>
+
+                <div class="subsection">
+                  <h3 class="summary__title--subtitle">Breaking out of a loop</h3>
+                  <p>Having the looping condition produce <code>false</code> is not the only way a loop can finish. There is a statement called <code>break</code> that has the effect of immediately jumping out of the enclosing loop. For example, this program finds the first number that is both greater than or equal to 20 and divisible by 7.</p>
+                  <pre><code>
+<!--             -->for(let current = 20; ;current = current +1){
+<!--                -->   if(current % 7 == 0){
+<!--                -->     console.log(current);
+<!--                -->     break;
+<!--                -->   }
+<!--             -->}
+<!--             -->// returns 21
+                  </code></pre>
+                  <p>The <code>continue</code> keyword is similar to <code>break</code>, in that it influences the progress of a loop. When <code>continue</code> is encountered in a loop body, control jumps out of the body and continues with the loop's next iteration.</p>
+                </div>
+
+                <div class="subsection">
+                  <h3 class="summary__title--subtitle">Switch</h3>
+                  <p>If we need to execute different actions according to an specific value, we could use a bunch of nested <code>if</code> statements. Or we could use <code>switch</code>.</p>
+                  <pre><code>
+<!--             -->switch(prompt("What is the weather like?")){
+<!--                -->   case "rainy":
+<!--                -->     console.log("Remember to bring an umbrella");
+<!--                -->     break;
+<!--                -->   case "sunny":
+<!--                -->     console.log("Dress lightly");
+<!--                -->     break;
+<!--                -->   case "cloudy":
+<!--                -->     console.log("Go outside");
+<!--                -->     break;
+<!--                -->   default:
+<!--                -->     console.log("Unknown weather type!");
+<!--                -->     break;
+<!--             -->}
+                  </code></pre>
+                  <p>You can put any number of <code>case</code> labels inside the block opened by <code>switch</code>. The program will start executing at the label that corresponds to the value that <code>switch</code> was given, or at <code>default</code> if no matching value is found. <strong>It will continue exceuting, even across other labells, until it reaches a <code>break</code> statement</strong>.</p>
                 </div>
 
                 <div class="summary__navigation">
