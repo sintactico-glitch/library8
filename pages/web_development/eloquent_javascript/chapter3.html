@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@400;500;600&family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="../../../img/infinity_icon.png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../../css/bootstrap.css">
+    <link rel="stylesheet" href="../../../css/mainBootstrap.css">
+    <title>Chapter 3 - Eloquent JavaScript</title>
+</head>
+<body>
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="../../../index.html">Infinite Library</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../../../index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Categories
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Awareness</a>
+                      <a class="dropdown-item" href="../../investing.html">Investing</a>
+                      <a class="dropdown-item" href="../../studies.html">Studies</a>
+                      <a class="dropdown-item active" href="../../web_development.html">Web Development <span class="sr-only">(current)</span></a>
+                      <a class="dropdown-item" href="#">Worldbuilding</a>
+                    </div>
+                  </li>
+            </ul>
+            </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero" id="eloquent_js">
+      <div class="hero__container container">
+          <div class="row">
+              <div class="col-md-5 hero__container">
+                  <h1 class="hero__title"><span>Eloquent JavaScript</span></h1>
+                  <p class="hero__text"><span>Marijn Haverbeke</span></p>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <main>
+      <section class="summary">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-10 offset-lg-1">
+              <span class="anchor" id="chapter1"></span>
+              <article>
+                <h2 class="summary__title--main">Functions</h2>
+
+                <div class="subsection">
+                  <p>A <strong>function</strong> is created with an expression that starts with the keyword <code>function</code>. Functions have a set of <em>parameters</em> and a <em>body</em>, which contains the statements that are to be executed when the function is called. The function body of a function created this way must always be wrapped in braces, even when it consists of only a single statement.</p>
+                  <pre><code>
+<!--             -->const power = function(base, exponent){
+<!--               -->  let result = 1;
+<!--               -->  for (let count = 0; count < exponent; count++){
+<!--                  -->   result *= base;
+<!--               -->  }
+<!--               -->  return result;
+<!--             -->}
+<!--             -->console.log(power(2,10)); // returns 1024
+                  </code></pre>
+                  <p>A function can have multiple parameters or no parameters at all. Parameters to a function behave like regular bindings, but their initial values are given by the caller of the function, not the code in the function itself.</p>
+                  <p>Some functions produce a value and some don't. A <code>return</code> statement determines the value the function returns. A <code>return</code> keyword without an expression after it will cause the function to return <code>undefined</code>. Functions that don't have a <code>return</code> statement at all also return <code>undefined</code>.</p>
+                </div> 
+
+                <div class="subsection">
+                  <h3 class="summary__title--subtitle">Bindings and Scope</h3>
+                  <p>Each binding has a <em>scope</em>, which is the part of the program in which the binding is visible.</p>
+                  <ul>
+                    <li class="summary__list-item"><strong>Global bindings</strong> are the ones defined outside any function or block. Their scope is the whole program</li>
+                    <li class="summary__list-item">Bindings that are created for function parameters or declared inside a funcion are <strong>local bindings</strong>. This means they can be referenced only in the function they were declared in</li>
+                  </ul>
+                  <div class="highlight">
+                    <p>Bindings declared with <code>let</code> and <code>const</code> are in fact local to the <em>block</em> that they're declared in, so if you create one of these inside of a loop, the code before and after the loop can't "see" it.</p>
+                    <p>In pre-2015 JavaScipt, only functions created new scopes, <strong>so old-style bindings created with the <code>var</code> keyword are visible to the entire program (global scope) if they're not in a function</strong>.</p>
+                  </div>
+                  <p>Blocks and functions can be created inside other blocks and functions, producing multiple degres of locality.</p>
+                  <p><strong>The set of bindings visible inside a block is determined by the place of that block in the program text.</strong> Each local scope can also see all the local scopes that contain it, and all scopes can see the global scope. This approach to binding visibility is called <em>lexical scoping</em>.</p>
+                </div> 
+                
+                <div class="subsection">
+                  <h3 class="summary__title--subtitle">Function Declarations</h3>
+                  <pre><code>
+<!--             -->function square(x){
+<!--             -->  return x * x;
+<!--             -->}
+                  </code></pre>
+                  <p>This is a function <em>declaration</em>. Function declarations are not part of the regular top-to-bottom flow of control. They're conceptually moved to the top of their scope and can be used by all the code in that scope.</p>
+                </div>  
+
+                <div class="subsection">
+                  <h3 class="summary__title--subtitle">Arrow Functions</h3>
+                  <p>Instead of the <code>function</code> keyword, it uses an arrow (<code>=></code>):</p>
+                  <pre><code>
+<!--             -->const power = (base, exponent) => {
+<!--             -->  let result = 1;
+<!--             -->  for (let count = 0; count < exponent; count++){
+<!--             -->    result *= base;
+<!--             -->  }
+<!--             -->  return result;
+<!--             -->};
+                  </code></pre>
+                  <p>The arrow comes after the list of parameters and is followed by the function's body. When an arrow function has no parameters at all, its parameter list is just an empty set of parentheses:</p>
+                  <pre><code>
+<!--             -->const horn = () => {
+<!--             -->  console.log("Toot");
+<!--             -->};
+                  </code></pre>
+                </div>
+
+                <div class="subsection">
+                  <h3 class="summary__title--subtitle">The Call Stack</h3>
+                  <p>Because a function has to jump back to the place that called it when it returns, the computer must remember the context from which the call happened.</p>
+                  <p>The place where the computer stores this context is the <strong>call stack</strong>. Every time a function is called, the current context is stored on top of this stack. When a function returns, it removes the top context from the stack and uses that context to continue execution.</p>
+                  <p>Storing this stack requires space in the computer's memory. When the stack grows too big, the computer will fail with a message like "out of stock space" or "too much recursion".</p>
+                </div>
+
+                <div class="subsection">
+                  <h3 class="summary__title--subtitle">Optional Arguments</h3>
+                  <div class="highlight">
+                    <p>JavaScript is extremely broad-minded about the number of arguments you pass to a function. If you pass too many, the extra ones are ignored. <strong>If you pass too few, the missing parameters get assigned the value <code>undefined</code></strong>.</p>
+                  </div>
+                  <p>The downside of this is that it's possible (even likely) that you'll accidentaly pass the wrong number of arguments to functions. And no one will tell you about it.</p>
+                  <p>The upside is that this behavior can be used to allow a <strong>function to be called with different numbers of arguments</strong>. </p>
+                  <pre><code>
+<!--             -->function minus(a, b){
+<!--             -->  if (b === undefined) return -a;
+<!--             -->  else return a - b;
+<!--             -->}
+<!--             -->console.log(minus(10)); // returns -10 
+<!--             -->console.log(minus(10,5)); // returns 5
+                  </code></pre>
+                  <p>If you write an <code>=</code> operator after a parameter, followed by an expression, the value of that expression will replace the argument when it's not given.</p>
+                  <pre><code>
+<!--             -->function power(base, exponent = 2){
+<!--             -->  let result = 1;
+<!--             -->  for (let count = 0; count < exponent; count++){
+<!--             -->    result *= base;
+<!--             -->  }
+<!--             -->  return result;
+<!--             -->}
+                  </code></pre>
+                </div>
+
+                <div class="subsection">
+                  <h3 class="summary__title--subtitle">Recursion</h3>
+                  <p>It's perfectly okay for a function to call itself, as long as it doesn't do it so often that it overflows the stack. <strong>A function that calls itself is called <em>recursive</em>.</strong></p>
+                  <pre><code>
+<!--             -->function power(base, exponent){
+<!--             -->  if (exponent === 0){
+<!--             -->    return 1;
+<!--             -->  } else {
+<!--             -->    return base * power(base, exponent - 1);
+<!--             -->  }
+<!--             -->}
+<!--             -->console.log(power(2,3)); // returns 8
+                  </code></pre>
+                  <p>Running through a simple loop is generally cheaper than calling a function multiple times. However, recursion is not always just an innefficient alternative to looping. Some problems are easier to solve with recursion than with loops. <strong>Most often these are problems that require exploring or processing several "branches", each of which might branch put again into even more branches.</strong></p>
+                </div>
+
+                <div class="subsection">
+                  <h3 class="summary__title--subtitle">Functions and Side Effects</h3>
+                  <p>Functions can be roughly divided into:</p>
+                  <ul>
+                    <li class="summary__list-item">Functions that are called for their side effects</li>
+                    <li class="summary__list-item">Functions that are called for their return value</li>
+                    <li class="summary__list-item">(Though it's possible to both have side effects and return a value)</li>
+                  </ul>
+                  <p><strong>Functions that create values are easier to combine in new ways than functions that directly perform side effects.</strong></p>
+                  <p>A <em>pure</em> function is a specific kind of value-producing function that not only has no side effects, but also doesn't rely on side effects from other code. When you call a pure function with the same arguments multiple times, it always produces the same value. When you aren't sure that a pure function is working correctly, you can test it by simply calling it and know that if it works in that context, it will work in any context. Nonpure functions tend to require more scaffolding to test.</p>
+                  <p>Side effects are also useful. There'd be no way to write a pure version of <code>console.log</code>, for example. Some operations are also easier to express in an efficient way when we use side effects, so computing speed can be a reason to avoid purity.</p>
+                </div>
+
+
+                <div class="summary__navigation">
+                  <a href="chapter1.html" class="btn btn--previous">Previous Chapter</a>
+                  <a href="#" class="btn btn--next">Next Chapter</a>  
+                </div>
+
+                <a href="../eloquent_javascript.html" class="btn">Back to Index</a>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    </main>
+    
+    <!-- Scripts Bootstrap -->
+    <script src="../../../js/jquery-3.5.1.slim.min.js"></script>
+    <script src="../../../js/popper.min.js"></script>
+    <script src="../../../js/bootstrap.min.js"></script>
+</body>
+</html>
