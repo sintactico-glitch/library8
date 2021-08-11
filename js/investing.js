@@ -25,7 +25,7 @@ const money = [
         title: 'Money: The Unauthorized Biography',
         author: 'Felix Martin',
         img_cover: 'img/book_covers/money_biography.jpg',
-        summary_link: '',
+        summary_link: '#',
     },
     {
         title: 'Gratis: El futuro de un precio radical',
@@ -152,67 +152,135 @@ for(const subcategory of investingArrays){
 // Imprimir libros subcategoría cryptocurrency
 document.getElementById('cryptocurrency').innerHTML = `
 ${cryptocurrency.map(function(book){
-    return `
-    <div class="col-12 col-sm-8 col-md-6 col-lg-4 mb-4">
-        <div class="card h-100 card--summary">
-            <div class="card__img">
-                <img src="../${book.img_cover}" alt="Tapa de ${book.title}">
+    if(book.summary_link === '#'){
+        return `
+        <div class="col-12 col-sm-8 col-md-6 col-lg-4 mb-4">
+            <div class="card h-100 card--summary">
+                <div class="card__img">
+                    <img src="../${book.img_cover}" alt="Tapa de ${book.title}">
+                </div>
+                <h3 class="card__title">${book.title}</h3>
+                <p class="card__author">${book.author}</p>
+                <a href="${book.summary_link}" class="btn btn--disabled">Read Summary</a>
             </div>
-            <h3 class="card__title">${book.title}</h3>
-            <p class="card__author">${book.author}</p>
-            <a href="${book.summary_link}" class="btn">Read Summary</a>
         </div>
-    </div>
-    `;
+        `;
+    } else {
+        return `
+        <div class="col-12 col-sm-8 col-md-6 col-lg-4 mb-4">
+            <div class="card h-100 card--summary">
+                <div class="card__img">
+                    <img src="../${book.img_cover}" alt="Tapa de ${book.title}">
+                </div>
+                <h3 class="card__title">${book.title}</h3>
+                <p class="card__author">${book.author}</p>
+                <a href="${book.summary_link}" class="btn">Read Summary</a>
+            </div>
+        </div>
+        `;
+    }
+
+
 }).join('')}`;
 
 // Imprimir libros subcategoría money
 document.getElementById('money').innerHTML = `
 ${money.map(function(book){
-    return `
-    <div class="col-12 col-sm-8 col-md-6 col-lg-4 mb-4">
-        <div class="card h-100 card--summary">
-            <div class="card__img">
-                <img src="../${book.img_cover}" alt="Tapa de ${book.title}">
+    if(book.summary_link === '#'){
+        return `
+        <div class="col-12 col-sm-8 col-md-6 col-lg-4 mb-4">
+            <div class="card h-100 card--summary">
+                <div class="card__img">
+                    <img src="../${book.img_cover}" alt="Tapa de ${book.title}">
+                </div>
+                <h3 class="card__title">${book.title}</h3>
+                <p class="card__author">${book.author}</p>
+                <a href="${book.summary_link}" class="btn btn--disabled">Read Summary</a>
             </div>
-            <h3 class="card__title">${book.title}</h3>
-            <p class="card__author">${book.author}</p>
-            <a href="${book.summary_link}" class="btn">Read Summary</a>
         </div>
-    </div>
-    `;
+        `;
+    } else {
+        return `
+        <div class="col-12 col-sm-8 col-md-6 col-lg-4 mb-4">
+            <div class="card h-100 card--summary">
+                <div class="card__img">
+                    <img src="../${book.img_cover}" alt="Tapa de ${book.title}">
+                </div>
+                <h3 class="card__title">${book.title}</h3>
+                <p class="card__author">${book.author}</p>
+                <a href="${book.summary_link}" class="btn">Read Summary</a>
+            </div>
+        </div>
+        `;
+    }
+
+
 }).join('')}`;
 
 // Imprimir libros subcategoría technicalAnalysis
 document.getElementById('technicalAnalysis').innerHTML = `
 ${technicalAnalysis.map(function(book){
-    return `
-    <div class="col-12 col-sm-8 col-md-6 col-lg-4 mb-4">
-        <div class="card h-100 card--summary">
-            <div class="card__img">
-                <img src="../${book.img_cover}" alt="Tapa de ${book.title}">
+    if(book.summary_link === '#'){
+        return `
+        <div class="col-12 col-sm-8 col-md-6 col-lg-4 mb-4">
+            <div class="card h-100 card--summary">
+                <div class="card__img">
+                    <img src="../${book.img_cover}" alt="Tapa de ${book.title}">
+                </div>
+                <h3 class="card__title">${book.title}</h3>
+                <p class="card__author">${book.author}</p>
+                <a href="${book.summary_link}" class="btn btn--disabled">Read Summary</a>
             </div>
-            <h3 class="card__title">${book.title}</h3>
-            <p class="card__author">${book.author}</p>
-            <a href="${book.summary_link}" class="btn">Read Summary</a>
         </div>
-    </div>
-    `;
+        `;
+    } else {
+        return `
+        <div class="col-12 col-sm-8 col-md-6 col-lg-4 mb-4">
+            <div class="card h-100 card--summary">
+                <div class="card__img">
+                    <img src="../${book.img_cover}" alt="Tapa de ${book.title}">
+                </div>
+                <h3 class="card__title">${book.title}</h3>
+                <p class="card__author">${book.author}</p>
+                <a href="${book.summary_link}" class="btn">Read Summary</a>
+            </div>
+        </div>
+        `;
+    }
+
+
 }).join('')}`;
 
 // Imprimir libros subcategoría work
 document.getElementById('work').innerHTML = `
 ${work.map(function(book){
-    return `
-    <div class="col-12 col-sm-8 col-md-6 col-lg-4 mb-4">
-        <div class="card h-100 card--summary">
-            <div class="card__img">
-                <img src="../${book.img_cover}" alt="Tapa de ${book.title}">
+    if(book.summary_link === '#'){
+        return `
+        <div class="col-12 col-sm-8 col-md-6 col-lg-4 mb-4">
+            <div class="card h-100 card--summary">
+                <div class="card__img">
+                    <img src="../${book.img_cover}" alt="Tapa de ${book.title}">
+                </div>
+                <h3 class="card__title">${book.title}</h3>
+                <p class="card__author">${book.author}</p>
+                <a href="${book.summary_link}" class="btn btn--disabled">Read Summary</a>
             </div>
-            <h3 class="card__title">${book.title}</h3>
-            <p class="card__author">${book.author}</p>
-            <a href="${book.summary_link}" class="btn">Read Summary</a>
         </div>
-    </div>
-    `;
+        `;
+    } else {
+        return `
+        <div class="col-12 col-sm-8 col-md-6 col-lg-4 mb-4">
+            <div class="card h-100 card--summary">
+                <div class="card__img">
+                    <img src="../${book.img_cover}" alt="Tapa de ${book.title}">
+                </div>
+                <h3 class="card__title">${book.title}</h3>
+                <p class="card__author">${book.author}</p>
+                <a href="${book.summary_link}" class="btn">Read Summary</a>
+            </div>
+        </div>
+        `;
+    }
+
+
 }).join('')}`;
