@@ -179,8 +179,6 @@ ${cryptocurrency.map(function(book){
         </div>
         `;
     }
-
-
 }).join('')}`;
 
 // Imprimir libros subcategoría money
@@ -213,8 +211,6 @@ ${money.map(function(book){
         </div>
         `;
     }
-
-
 }).join('')}`;
 
 // Imprimir libros subcategoría technicalAnalysis
@@ -247,8 +243,6 @@ ${technicalAnalysis.map(function(book){
         </div>
         `;
     }
-
-
 }).join('')}`;
 
 // Imprimir libros subcategoría work
@@ -281,6 +275,4 @@ ${work.map(function(book){
         </div>
         `;
     }
-
-
 }).join('')}`;
